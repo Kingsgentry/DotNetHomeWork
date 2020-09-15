@@ -1,0 +1,13 @@
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\bin\Debug\netcoreapp3.1\Event.exe
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\bin\Debug\netcoreapp3.1\Event.deps.json
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\bin\Debug\netcoreapp3.1\Event.runtimeconfig.json
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\bin\Debug\netcoreapp3.1\Event.runtimeconfig.dev.json
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\bin\Debug\netcoreapp3.1\Event.dll
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\bin\Debug\netcoreapp3.1\Event.pdb
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\obj\Debug\netcoreapp3.1\Event.csprojAssemblyReference.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\obj\Debug\netcoreapp3.1\Event.csproj.CoreCompileInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\obj\Debug\netcoreapp3.1\Event.AssemblyInfoInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\obj\Debug\netcoreapp3.1\Event.AssemblyInfo.cs
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\obj\Debug\netcoreapp3.1\Event.dll
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\obj\Debug\netcoreapp3.1\Event.pdb
+C:\Users\ad\Documents\Navon\C#\DotNet\DotNetHomeWork\Event\obj\Debug\netcoreapp3.1\Event.genruntimeconfig.cache

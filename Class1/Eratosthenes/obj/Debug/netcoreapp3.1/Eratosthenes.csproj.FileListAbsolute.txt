@@ -1,0 +1,13 @@
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.exe
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.deps.json
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.runtimeconfig.json
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.runtimeconfig.dev.json
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.dll
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.pdb
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.csproj.CoreCompileInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.AssemblyInfoInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.AssemblyInfo.cs
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.dll
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.pdb
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.genruntimeconfig.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.csprojAssemblyReference.cache

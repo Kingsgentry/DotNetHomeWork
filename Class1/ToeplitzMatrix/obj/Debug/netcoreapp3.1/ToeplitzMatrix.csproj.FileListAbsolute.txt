@@ -1,0 +1,12 @@
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\bin\Debug\netcoreapp3.1\ToeplitzMatrix.exe
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\bin\Debug\netcoreapp3.1\ToeplitzMatrix.deps.json
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\bin\Debug\netcoreapp3.1\ToeplitzMatrix.runtimeconfig.json
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\bin\Debug\netcoreapp3.1\ToeplitzMatrix.runtimeconfig.dev.json
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\bin\Debug\netcoreapp3.1\ToeplitzMatrix.dll
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\bin\Debug\netcoreapp3.1\ToeplitzMatrix.pdb
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\obj\Debug\netcoreapp3.1\ToeplitzMatrix.csproj.CoreCompileInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\obj\Debug\netcoreapp3.1\ToeplitzMatrix.AssemblyInfoInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\obj\Debug\netcoreapp3.1\ToeplitzMatrix.AssemblyInfo.cs
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\obj\Debug\netcoreapp3.1\ToeplitzMatrix.dll
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\obj\Debug\netcoreapp3.1\ToeplitzMatrix.pdb
+C:\Users\ad\Documents\Navon\C#\DotNet\ToeplitzMatrix\obj\Debug\netcoreapp3.1\ToeplitzMatrix.genruntimeconfig.cache

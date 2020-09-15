@@ -1,0 +1,13 @@
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\obj\Debug\netcoreapp3.1\dotNet课堂练习1.csprojAssemblyReference.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\obj\Debug\netcoreapp3.1\dotNet课堂练习1.csproj.CoreCompileInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\obj\Debug\netcoreapp3.1\dotNet课堂练习1.AssemblyInfoInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\obj\Debug\netcoreapp3.1\dotNet课堂练习1.AssemblyInfo.cs
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\bin\Debug\netcoreapp3.1\dotNet课堂练习1.exe
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\bin\Debug\netcoreapp3.1\dotNet课堂练习1.deps.json
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\bin\Debug\netcoreapp3.1\dotNet课堂练习1.runtimeconfig.json
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\bin\Debug\netcoreapp3.1\dotNet课堂练习1.runtimeconfig.dev.json
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\bin\Debug\netcoreapp3.1\dotNet课堂练习1.dll
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\bin\Debug\netcoreapp3.1\dotNet课堂练习1.pdb
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\obj\Debug\netcoreapp3.1\dotNet课堂练习1.dll
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\obj\Debug\netcoreapp3.1\dotNet课堂练习1.pdb
+C:\Users\ad\Documents\Navon\C#\DotNet\dotNet课堂练习1\obj\Debug\netcoreapp3.1\dotNet课堂练习1.genruntimeconfig.cache

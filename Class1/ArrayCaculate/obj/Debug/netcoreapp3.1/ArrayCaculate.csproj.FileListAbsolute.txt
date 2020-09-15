@@ -1,0 +1,13 @@
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\bin\Debug\netcoreapp3.1\ArrayCaculate.exe
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\bin\Debug\netcoreapp3.1\ArrayCaculate.deps.json
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\bin\Debug\netcoreapp3.1\ArrayCaculate.runtimeconfig.json
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\bin\Debug\netcoreapp3.1\ArrayCaculate.runtimeconfig.dev.json
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\bin\Debug\netcoreapp3.1\ArrayCaculate.dll
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\bin\Debug\netcoreapp3.1\ArrayCaculate.pdb
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\obj\Debug\netcoreapp3.1\ArrayCaculate.csprojAssemblyReference.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\obj\Debug\netcoreapp3.1\ArrayCaculate.csproj.CoreCompileInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\obj\Debug\netcoreapp3.1\ArrayCaculate.AssemblyInfoInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\obj\Debug\netcoreapp3.1\ArrayCaculate.AssemblyInfo.cs
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\obj\Debug\netcoreapp3.1\ArrayCaculate.dll
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\obj\Debug\netcoreapp3.1\ArrayCaculate.pdb
+C:\Users\ad\Documents\Navon\C#\DotNet\ArrayCaculate\obj\Debug\netcoreapp3.1\ArrayCaculate.genruntimeconfig.cache
