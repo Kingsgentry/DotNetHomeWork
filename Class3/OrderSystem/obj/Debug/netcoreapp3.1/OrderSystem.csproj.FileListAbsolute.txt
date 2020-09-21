@@ -1,0 +1,13 @@
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\bin\Debug\netcoreapp3.1\OrderSystem.exe
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\bin\Debug\netcoreapp3.1\OrderSystem.deps.json
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\bin\Debug\netcoreapp3.1\OrderSystem.runtimeconfig.json
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\bin\Debug\netcoreapp3.1\OrderSystem.runtimeconfig.dev.json
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\bin\Debug\netcoreapp3.1\OrderSystem.dll
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\bin\Debug\netcoreapp3.1\OrderSystem.pdb
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\obj\Debug\netcoreapp3.1\OrderSystem.csprojAssemblyReference.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\obj\Debug\netcoreapp3.1\OrderSystem.csproj.CoreCompileInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\obj\Debug\netcoreapp3.1\OrderSystem.AssemblyInfoInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\obj\Debug\netcoreapp3.1\OrderSystem.AssemblyInfo.cs
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\obj\Debug\netcoreapp3.1\OrderSystem.dll
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\obj\Debug\netcoreapp3.1\OrderSystem.pdb
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class3\OrderSystem\obj\Debug\netcoreapp3.1\OrderSystem.genruntimeconfig.cache
