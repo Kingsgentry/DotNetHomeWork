@@ -1,0 +1,7 @@
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystem\obj\Debug\OrderSystem.csprojAssemblyReference.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystem\obj\Debug\OrderSystem.csproj.CoreCompileInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystem\bin\Debug\OrderSystem.exe.config
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystem\bin\Debug\OrderSystem.exe
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystem\bin\Debug\OrderSystem.pdb
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystem\obj\Debug\OrderSystem.exe
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystem\obj\Debug\OrderSystem.pdb

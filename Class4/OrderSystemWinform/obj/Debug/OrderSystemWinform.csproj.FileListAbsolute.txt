@@ -1,0 +1,14 @@
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\obj\Debug\OrderSystemWinform.csprojAssemblyReference.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\obj\Debug\OrderSystemWinform.OrderSystemForm.resources
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\obj\Debug\OrderSystemWinform.csproj.GenerateResource.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\obj\Debug\OrderSystemWinform.csproj.CoreCompileInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\bin\Debug\OrderSystemWinform.exe.config
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\bin\Debug\OrderSystemWinform.exe
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\bin\Debug\OrderSystemWinform.pdb
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\bin\Debug\OrderSystem.exe
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\bin\Debug\OrderSystem.pdb
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\bin\Debug\OrderSystem.exe.config
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\obj\Debug\OrderSystemWinform.csproj.CopyComplete
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\obj\Debug\OrderSystemWinform.exe
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\obj\Debug\OrderSystemWinform.pdb
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\OrderSystemWinform\obj\Debug\OrderSystemWinform.OrderEditForm.resources

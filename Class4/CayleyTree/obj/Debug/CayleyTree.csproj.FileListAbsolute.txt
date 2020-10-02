@@ -1,0 +1,9 @@
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\CayleyTree\obj\Debug\CayleyTree.csprojAssemblyReference.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\CayleyTree\obj\Debug\CayleyTree.CaylayTreeForm.resources
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\CayleyTree\obj\Debug\CayleyTree.csproj.GenerateResource.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\CayleyTree\obj\Debug\CayleyTree.csproj.CoreCompileInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\CayleyTree\bin\Debug\CayleyTree.exe.config
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\CayleyTree\bin\Debug\CayleyTree.exe
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\CayleyTree\bin\Debug\CayleyTree.pdb
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\CayleyTree\obj\Debug\CayleyTree.exe
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class4\CayleyTree\obj\Debug\CayleyTree.pdb
