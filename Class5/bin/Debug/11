@@ -1,0 +1,495 @@
+﻿
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>IdentityServer Interaction Service &mdash; IdentityServer4 1.0.0 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Device Flow Interaction Service" href="deviceflow_interactionservice.html" />
+    <link rel="prev" title="Profile Service" href="profileservice.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+
+<!-- RTD Extra Head -->
+
+<!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+<link rel="canonical" href="http://docs.identityserver.io/en/latest/reference/interactionservice.html" />
+
+<link rel="stylesheet" href="https://media.readthedocs.org/css/readthedocs-doc-embed.css" type="text/css" />
+
+<script type="text/javascript" src="../_static/readthedocs-data.js"></script>
+
+<!-- Add page-specific data, which must exist in the page js, not global -->
+<script type="text/javascript">
+READTHEDOCS_DATA['page'] = 'reference/interactionservice'
+READTHEDOCS_DATA['source_suffix'] = '.rst'
+</script>
+
+<script type="text/javascript" src="https://media.readthedocs.org/javascript/readthedocs-analytics.js"></script>
+
+<!-- end RTD <extrahead> -->
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> IdentityServer4
+          
+
+          
+          </a>
+
+          
+            
+            
+            
+              <div class="version">
+                release
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro/big_picture.html">The Big Picture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/terminology.html">Terminology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/specs.html">Supported Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/packaging.html">Packaging and Builds</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/support.html">Support and Consulting Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/test.html">Demo Server and Tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/contributing.html">Contributing</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Quickstarts</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../quickstarts/0_overview.html">Setup and Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstarts/1_client_credentials.html">Protecting an API using Client Credentials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstarts/2_resource_owner_passwords.html">Protecting an API using Passwords</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstarts/3_interactive_login.html">Adding User Authentication with OpenID Connect</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstarts/4_external_authentication.html">Adding Support for External Authentication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstarts/5_hybrid_and_api_access.html">Switching to Hybrid Flow and adding API Access back</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstarts/6_aspnet_identity.html">Using ASP.NET Core Identity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstarts/7_javascript_client.html">Adding a JavaScript client</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstarts/8_entity_framework.html">Using EntityFramework Core for configuration and operational data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstarts/community.html">Community quickstarts &amp; samples</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Topics</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/startup.html">Startup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/resources.html">Defining Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/clients.html">Defining Clients</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/signin.html">Sign-in</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/signin_external_providers.html">Sign-in with External Identity Providers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/windows.html">Windows Authentication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/signout.html">Sign-out</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/signout_external_providers.html">Sign-out of External Identity Providers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/signout_federated.html">Federated Sign-out</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/federation_gateway.html">Federation Gateway</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/consent.html">Consent</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/apis.html">Protecting APIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/deployment.html">Deployment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/logging.html">Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/events.html">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/crypto.html">Cryptography, Keys and HTTPS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/grant_types.html">Grant Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/secrets.html">Secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/extension_grants.html">Extension Grants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/resource_owner.html">Resource Owner Password Validation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/refresh_tokens.html">Refresh Tokens</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/reference_tokens.html">Reference Tokens</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/cors.html">CORS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/discovery.html">Discovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/add_apis.html">Adding more API Endpoints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/add_protocols.html">Adding new Protocols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/tools.html">Tools</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Endpoints</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../endpoints/discovery.html">Discovery Endpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../endpoints/authorize.html">Authorize Endpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../endpoints/token.html">Token Endpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../endpoints/userinfo.html">UserInfo Endpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../endpoints/device_authorization.html">Device Authorization Endpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../endpoints/introspection.html">Introspection Endpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../endpoints/revocation.html">Revocation Endpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../endpoints/endsession.html">End Session Endpoint</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="identity_resource.html">Identity Resource</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api_resource.html">API Resource</a></li>
+<li class="toctree-l1"><a class="reference internal" href="client.html">Client</a></li>
+<li class="toctree-l1"><a class="reference internal" href="grant_validation_result.html">GrantValidationResult</a></li>
+<li class="toctree-l1"><a class="reference internal" href="profileservice.html">Profile Service</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">IdentityServer Interaction Service</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#iidentityserverinteractionservice-apis">IIdentityServerInteractionService APIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#authorizationrequest">AuthorizationRequest</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#errormessage">ErrorMessage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#logoutrequest">LogoutRequest</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#consentresponse">ConsentResponse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#consent">Consent</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="deviceflow_interactionservice.html">Device Flow Interaction Service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="options.html">IdentityServer Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ef.html">Entity Framework Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aspnet_identity.html">ASP.NET Identity Support</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Misc</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../misc/training.html">Training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../misc/blogs.html">Blog posts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../misc/videos.html">Videos</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">IdentityServer4</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>IdentityServer Interaction Service</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/IdentityServer/IdentityServer4/blob/release/docs/reference/interactionservice.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="identityserver-interaction-service">
+<h1>IdentityServer Interaction Service<a class="headerlink" href="#identityserver-interaction-service" title="Permalink to this headline">¶</a></h1>
+<p>The <code class="docutils literal notranslate"><span class="pre">IIdentityServerInteractionService</span></code> interface is intended to provide services to be used by the user interface to communicate with IdentityServer, mainly pertaining to user interaction.
+It is available from the dependency injection system and would normally be injected as a constructor parameter into your MVC controllers for the user interface of IdentityServer.</p>
+<div class="section" id="iidentityserverinteractionservice-apis">
+<h2>IIdentityServerInteractionService APIs<a class="headerlink" href="#iidentityserverinteractionservice-apis" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><code class="docutils literal notranslate"><span class="pre">GetAuthorizationContextAsync</span></code></dt>
+<dd>Returns the <code class="docutils literal notranslate"><span class="pre">AuthorizationRequest</span></code> based on the <code class="docutils literal notranslate"><span class="pre">returnUrl</span></code> passed to the login or consent pages.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">IsValidReturnUrl</span></code></dt>
+<dd>Indicates if the <code class="docutils literal notranslate"><span class="pre">returnUrl</span></code> is a valid URL for redirect after login or consent.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">GetErrorContextAsync</span></code></dt>
+<dd>Returns the <code class="docutils literal notranslate"><span class="pre">ErrorMessage</span></code> based on the <code class="docutils literal notranslate"><span class="pre">errorId</span></code> passed to the error page.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">GetLogoutContextAsync</span></code></dt>
+<dd>Returns the <code class="docutils literal notranslate"><span class="pre">LogoutRequest</span></code> based on the <code class="docutils literal notranslate"><span class="pre">logoutId</span></code> passed to the logout page.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">CreateLogoutContextAsync</span></code></dt>
+<dd>Used to create a <code class="docutils literal notranslate"><span class="pre">logoutId</span></code> if there is not one presently.
+This creates a cookie capturing all the current state needed for signout and the <code class="docutils literal notranslate"><span class="pre">logoutId</span></code> identifies that cookie.
+This is typically used when there is no current <code class="docutils literal notranslate"><span class="pre">logoutId</span></code> and the logout page must capture the current user’s state needed for sign-out prior to redirecting to an external identity provider for signout.
+The newly created <code class="docutils literal notranslate"><span class="pre">logoutId</span></code> would need to be round-tripped to the external identity provider at signout time, and then used on the signout callback page in the same way it would be on the normal logout page.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">GrantConsentAsync</span></code></dt>
+<dd>Accepts a <code class="docutils literal notranslate"><span class="pre">ConsentResponse</span></code> to inform IdentityServer of the user’s consent to a particular <code class="docutils literal notranslate"><span class="pre">AuthorizationRequest</span></code>.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">GetAllUserConsentsAsync</span></code></dt>
+<dd>Returns a collection of <code class="docutils literal notranslate"><span class="pre">Consent</span></code> for the user.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RevokeUserConsentAsync</span></code></dt>
+<dd>Revokes all of a user’s consents and grants for a client.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RevokeTokensForCurrentSessionAsync</span></code></dt>
+<dd>Revokes all of a user’s consents and grants for clients the user has signed into during their current session.</dd>
+</dl>
+</div>
+<div class="section" id="authorizationrequest">
+<h2>AuthorizationRequest<a class="headerlink" href="#authorizationrequest" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><code class="docutils literal notranslate"><span class="pre">ClientId</span></code></dt>
+<dd>The client identifier that initiated the request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RedirectUri</span></code></dt>
+<dd>The URI to redirect the user to after successful authorization.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">DisplayMode</span></code></dt>
+<dd>The display mode passed from the authorization request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">UiLocales</span></code></dt>
+<dd>The UI locales passed from the authorization request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">IdP</span></code></dt>
+<dd>The external identity provider requested.
+This is used to bypass home realm discovery (HRD).
+This is provided via the “idp:” prefix to the <code class="docutils literal notranslate"><span class="pre">acr_values</span></code> parameter on the authorize request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">Tenant</span></code></dt>
+<dd>The tenant requested.
+This is provided via the “tenant:” prefix to the <code class="docutils literal notranslate"><span class="pre">acr_values</span></code> parameter on the authorize request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">LoginHint</span></code></dt>
+<dd>The expected username the user will use to login.
+This is requested from the client via the <code class="docutils literal notranslate"><span class="pre">login_hint</span></code> parameter on the authorize request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">PromptMode</span></code></dt>
+<dd>The prompt mode requested from the authorization request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">AcrValues</span></code></dt>
+<dd>The acr values passed from the authorization request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">ScopesRequested</span></code></dt>
+<dd>The scopes requested from the authorization request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">Parameters</span></code></dt>
+<dd>The entire parameter collection passed to the authorization request.</dd>
+</dl>
+</div>
+<div class="section" id="errormessage">
+<h2>ErrorMessage<a class="headerlink" href="#errormessage" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><code class="docutils literal notranslate"><span class="pre">DisplayMode</span></code></dt>
+<dd>The display mode passed from the authorization request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">UiLocales</span></code></dt>
+<dd>The UI locales passed from the authorization request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">Error</span></code></dt>
+<dd>The error code.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RequestId</span></code></dt>
+<dd>The per-request identifier. This can be used to display to the end user and can be used in diagnostics.</dd>
+</dl>
+</div>
+<div class="section" id="logoutrequest">
+<h2>LogoutRequest<a class="headerlink" href="#logoutrequest" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><code class="docutils literal notranslate"><span class="pre">ClientId</span></code></dt>
+<dd>The client identifier that initiated the request.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">PostLogoutRedirectUri</span></code></dt>
+<dd>The URL to redirect the user to after they have logged out.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">SessionId</span></code></dt>
+<dd>The user’s current session id.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">SignOutIFrameUrl</span></code></dt>
+<dd>The URL to render in an <code class="docutils literal notranslate"><span class="pre">&lt;iframe&gt;</span></code> on the logged out page to enable single sign-out.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">Parameters</span></code></dt>
+<dd>The entire parameter collection passed to the end session endpoint.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">ShowSignoutPrompt</span></code></dt>
+<dd>Indicates if the user should be prompted for signout based upon the parameters passed to the end session endpoint.</dd>
+</dl>
+</div>
+<div class="section" id="consentresponse">
+<h2>ConsentResponse<a class="headerlink" href="#consentresponse" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><code class="docutils literal notranslate"><span class="pre">ScopesConsented</span></code></dt>
+<dd>The collection of scopes the user consented to.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">RememberConsent</span></code></dt>
+<dd>Flag indicating if the user’s consent is to be persisted.</dd>
+</dl>
+</div>
+<div class="section" id="consent">
+<h2>Consent<a class="headerlink" href="#consent" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><code class="docutils literal notranslate"><span class="pre">SubjectId</span></code></dt>
+<dd>The subject id that granted the consent.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">ClientId</span></code></dt>
+<dd>The client identifier for the consent.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">Scopes</span></code></dt>
+<dd>The collection of scopes consented to.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">CreationTime</span></code></dt>
+<dd>The date and time when the consent was granted.</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">Expiration</span></code></dt>
+<dd>The date and time when the consent will expire.</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="deviceflow_interactionservice.html" class="btn btn-neutral float-right" title="Device Flow Interaction Service" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="profileservice.html" class="btn btn-neutral" title="Profile Service" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Brock Allen &amp; Dominick Baier
+      
+        <span class="commit">
+          Revision <code>3881a3ad</code>.
+        </span>
+      
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: release
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="/en/latest/">latest</a></dd>
+        
+          <dd><a href="/en/updatedqs/">updatedqs</a></dd>
+        
+          <dd><a href="/en/release/">release</a></dd>
+        
+          <dd><a href="/en/dev/">dev</a></dd>
+        
+          <dd><a href="/en/aspnetcore1/">aspnetcore1</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="//readthedocs.org/projects/identityserver4/downloads/pdf/release/">pdf</a></dd>
+        
+          <dd><a href="//readthedocs.org/projects/identityserver4/downloads/htmlzip/release/">htmlzip</a></dd>
+        
+          <dd><a href="//readthedocs.org/projects/identityserver4/downloads/epub/release/">epub</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>On Read the Docs</dt>
+          <dd>
+            <a href="//readthedocs.org/projects/identityserver4/?fromdocs=identityserver4">Project Home</a>
+          </dd>
+          <dd>
+            <a href="//readthedocs.org/builds/identityserver4/?fromdocs=identityserver4">Builds</a>
+          </dd>
+      </dl>
+      <hr/>
+      Free document hosting provided by <a href="http://www.readthedocs.org">Read the Docs</a>.
+
+    </div>
+  </div>
+
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="https://media.readthedocs.org/javascript/jquery/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="https://media.readthedocs.org/javascript/jquery/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="https://media.readthedocs.org/javascript/underscore.js"></script>
+        <script type="text/javascript" src="https://media.readthedocs.org/javascript/doctools.js"></script>
+        <script type="text/javascript" src="https://media.readthedocs.org/javascript/readthedocs-doc-embed.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

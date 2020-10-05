@@ -1,0 +1,845 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="zh-tw">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1020px">
+<title>Fever 攝影旅遊 旅遊攝影 攝影景點分享平台 - Fever Travel</title>
+<meta name="title" content="Fever 攝影旅遊" /><meta name="description" content="travel channel" /><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<meta property="fb:app_id" content="301017970038593" />
+<link rel="SHORTCUT ICON" href="//cdn01.dcfever.com/images/favicon_new.ico" />
+<link href="//cdn01.dcfever.com/style/global_20jun08.css" rel="stylesheet" type="text/css" />
+<link href="//cdn01.dcfever.com/style/style_01sept08_5.css" rel="stylesheet" type="text/css" />
+<link href="//cdn01.dcfever.com/style/global_mega_narrow.css?date=12032014" rel="stylesheet" type="text/css" />
+<link href="//cdn01.dcfever.com/style/header_style_mega.css?date=06092013a" rel="stylesheet" type="text/css" />
+
+<link href="https://cdn01.dcfever.com/travel/styles/styles.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn01.dcfever.com/travel/styles/travelstyle_20150504.css" rel="stylesheet" type="text/css" />
+<link href="styles/index.css" rel="stylesheet" type="text/css" />
+<link href="../v4/css/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//cdn01.dcfever.com/travel/styles/travel_header2.css">
+<link href='https://fonts.googleapis.com/css?family=IM+Fell+English+SC' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/smoothness/jquery-ui.css" /><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script><script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1007060/dcfever_travel/dcfever_travel_top', [[728, 90], [970, 90]], 'div-gpt-ad-1491820441206-top').addService(googletag.pubads());
+    googletag.defineSlot('/1007060/dcfever_editorial/dcfever_editorial_rect_atf', [[300, 250]], 'div-gpt-ad-1491820441206-1').addService(googletag.pubads());
+    googletag.defineSlot('/1007060/dcfever_editorial/dcfever_editorial_rect_middle', [[300, 250]], 'div-gpt-ad-1491820441206-2').addService(googletag.pubads());
+    googletag.defineSlot('/1007060/dcfever_editorial/dcfever_editorial_rect_middle2', [[300, 250]], 'div-gpt-ad-1491820441206-3').addService(googletag.pubads());
+    googletag.defineSlot('/1007060/dcfever_travel/dcfever_travel_bottom', [[728, 90], [970, 90], [970, 250]], 'div-gpt-ad-1491820441206-99').addService(googletag.pubads()); 
+	googletag.pubads().enableSingleRequest();
+	googletag.pubads().collapseEmptyDivs();
+	googletag.enableServices();
+  });
+</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-374532-1', 'dcfever.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "7691093" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=7691093&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+</head>
+
+<body><div id="travel_main_wrapper">
+	<div class="travel_main_header_wrapper">
+	<div class="travel_main_header clear">
+		<div class="logo">
+			<a href="/index.php"><img src="//cdn01.dcfever.com/images/dcfever_logo_png.png" width="200" height="47"></a>
+			<a href="index.php"><div class="logo_tag">Fever 攝影旅遊</div></a>
+		</div>
+		<div class="menu">
+			<div class="button"><a href="/users/login.php">會員登入</a></div><a href="/users/register.php">會員登記</a><span class="sep">|</span><a href="/users/index.php">會員中心</a><span class="sep">|</span><a href="/index.php">返回 DCFever 首頁</a>		</div>
+		<div class="ad_space" style="display: none;">
+			<div style="position: relative; width: 315px; float: right;">
+				<input type="text" name="search_poi" style="width: 300px; margin-top: 8px; line-height: 24px; height: 24px; padding: 0px 5px; border: solid 1px #bbb;">
+				<div style="position: absolute; top: 11px; left: 8px; line-height: 24px; color: #888;">
+					搜尋目的地攻略
+				</div>
+				<div style="position: absolute; top: 15px; right: 8px; line-height: 24px;">
+					<i class="fa fa-search" style="color: #aaa;"></i>
+				</div>
+			</div>
+			<!--
+			<iframe src="/ads/iframe_main_page_textlinks.php?type=" frameborder="0" height="28" width="300"></iframe>
+			-->
+		</div>
+	</div>
+	</div>
+	<div class="travel_nav_wrapper clear">
+		<ul class="travel_nav">
+			<li class="travel_setting">
+				<ul class="travel_menu">
+				  <li>
+					<div class="menu_header"><i class="fa fa-gear"></i>內容管理</div>
+					<ul>
+					  <li><a href="aboutme.php">帳戶設定</a></li>
+					  <li><a href="myupload.php">管理相片</a></li>
+					  <li><a href="mytravelogue.php">管理遊記</a></li>
+					  <li><a href="myfootprint.php">管理足跡</a></li>
+					  <li><a href="myphotobookmark.php">相片書籤</a></li>
+					  <li><a href="mybookmark.php">景點書籤</a></li>
+					  <li><a href="mytravelogue_bookmark.php">遊記書籤</a></li>
+					</ul>
+				  </li>
+				</ul>
+			</li>
+			
+			<li id="menu_toggle"><i class="fa fa-align-justify"></i>Menu</li>
+			<li class="menu selected"><a href="index.php"><i class="fa fa-home"></i>首頁</a></li>
+			<li class="menu"><a href="traveloguelist.php"><i class="fa fa-comments-o"></i>遊記</a></li>
+			<li class="menu"><a href="hotdeals.php"><i class="fa fa-paper-plane"></i>遊攝資訊</a></li>
+			<li class="menu"><a href="destination.php"><i class="fa fa-map-marker"></i>旅攝好去處</a></li>
+			<li class="menu"><a href="photolist.php"><i class="fa fa-camera"></i>旅遊作品</a></li>
+			<li class="menu"><a href="profile.php"><i class="fa fa-user"></i>個人主頁</a></li>
+		</ul>
+	<div class="travel_nav_bar_wrapper">
+		<div class="travel_nav_bar large">
+			<ul class="right">
+				<li style="float: left;"><a href="write.php" class="button">寫遊記</a></li>
+				<li style="float: left;"><a href="findpoi.php" class="button">上載旅遊相片</a></li>
+			</ul>
+			<ul class="left">
+				<li><a href="about.php" class="home"><span>關於 Fever 攝影旅遊</span></a></li>
+				<li><a href="world.php?id=2545"><span>香港攝影好去處</span></a></li>
+				<li><a href="list.php"><span><i class="fa fa-star"></i> VIP 旅遊達人</span></a></li>
+				<li><a href="credit.php" class=""><span>會員積分計算</span></a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+<script lnguage="javascript">
+$("document").ready(function() {
+	$("ul.travel_menu > li").on("mouseenter click", function() {
+		$(this).find("ul").css("visibility", "visible");
+	}).mouseleave(function() {
+		$(this).find("ul").css("visibility", "hidden");
+	});
+});
+</script>
+
+<div class="main_wrapper clear">
+
+<div style="margin-top: 1em; margin-bottom: 1em; text-align: center; height: 90px;">
+	<!-- /1007060/dcfever_travel/dcfever_travel_top -->
+	<div id='div-gpt-ad-1491820441206-top'>
+	<script>
+	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1491820441206-top'); });
+	</script>
+	</div>
+</div>
+
+<div class="section_header">
+	<i class="fa fa-map-marker"></i>熱門旅遊攝影目的地
+	<span class="more">
+		<a href="destination.php">更多<i class="fa fa-angle-double-right"></i></a>
+	</span>
+</div>
+<div class="destination_matrix clear">
+<ul id="waterfall"><li class="box" style="width: 394px; margin-left: 10px; margin-bottom: 10px; height: 290px;">
+					<a href="world.php?nc=1&id=2545">
+						<div style="height: 290;">
+							<img src="https://cdn01.dcfever.com/media/travel/destination//2017/04/2545_destination_image.jpg" width="394" style="margin-top: -25px;">
+						</div>
+						<div class="name" style="line-height: 290px;">
+							香港
+						</div>
+					</a>
+					</li><li class="box" style="width: 192px; margin-left: 10px; margin-bottom: 10px; height: 140px;">
+					<a href="world.php?nc=1&id=1009">
+						<div style="height: 140px;">
+							<img src="https://cdn01.dcfever.com/media/travel/destination//2015/12/1009_destination_image.jpg" width="192" style="margin-top: -25px;">
+						</div>
+						<div class="name" style="line-height: 140px;">
+							日本
+						</div>
+					</a>
+					</li><li class="box" style="width: 192px; margin-left: 10px; margin-bottom: 10px; height: 140px;">
+					<a href="world.php?nc=1&id=1014">
+						<div style="height: 140px;">
+							<img src="https://cdn01.dcfever.com/media/travel/destination//2015/12/1014_destination_image.jpg" width="192" style="margin-top: -25px;">
+						</div>
+						<div class="name" style="line-height: 140px;">
+							泰國
+						</div>
+					</a>
+					</li><li class="box" style="width: 192px; margin-left: 10px; margin-bottom: 10px; height: 140px;">
+					<a href="world.php?nc=1&id=1011">
+						<div style="height: 140px;">
+							<img src="https://cdn01.dcfever.com/media/travel/destination//2016/02/1011_destination_image.jpg" width="192" style="margin-top: -25px;">
+						</div>
+						<div class="name" style="line-height: 140px;">
+							韓國
+						</div>
+					</a>
+					</li><li class="box" style="width: 192px; margin-left: 10px; margin-bottom: 10px; height: 140px;">
+					<a href="world.php?nc=1&id=1008">
+						<div style="height: 140px;">
+							<img src="https://cdn01.dcfever.com/media/travel/destination//2015/12/1008_destination_image.jpg" width="192" style="margin-top: -25px;">
+						</div>
+						<div class="name" style="line-height: 140px;">
+							中國
+						</div>
+					</a>
+					</li><li class="box" style="width: 192px; margin-left: 10px; margin-bottom: 10px; height: 140px;">
+					<a href="world.php?nc=1&id=2049">
+						<div style="height: 140px;">
+							<img src="https://cdn01.dcfever.com/media/travel/destination//2015/12/2049_destination_image.jpg" width="192" style="margin-top: -25px;">
+						</div>
+						<div class="name" style="line-height: 140px;">
+							奧地利
+						</div>
+					</a>
+					</li><li class="box" style="width: 192px; margin-left: 10px; margin-bottom: 10px; height: 140px;">
+					<a href="world.php?nc=1&id=2037">
+						<div style="height: 140px;">
+							<img src="https://cdn01.dcfever.com/media/travel/destination//2015/12/2037_destination_image.jpg" width="192" style="margin-top: -25px;">
+						</div>
+						<div class="name" style="line-height: 140px;">
+							瑞士
+						</div>
+					</a>
+					</li><li class="box" style="width: 192px; margin-left: 10px; margin-bottom: 10px; height: 140px;">
+					<a href="world.php?nc=1&id=2060">
+						<div style="height: 140px;">
+							<img src="https://cdn01.dcfever.com/media/travel/destination//2015/12/2060_destination_image.jpg" width="192" style="margin-top: -25px;">
+						</div>
+						<div class="name" style="line-height: 140px;">
+							黑山共和國
+						</div>
+					</a>
+					</li><li class="box" style="width: 192px; margin-left: 10px; margin-bottom: 10px; height: 140px;">
+					<a href="world.php?nc=1&id=1015">
+						<div style="height: 140px;">
+							<img src="https://cdn01.dcfever.com/media/travel/destination//2015/12/1015_destination_image.jpg" width="192" style="margin-top: -25px;">
+						</div>
+						<div class="name" style="line-height: 140px;">
+							新加坡
+						</div>
+					</a>
+					</li><li class="box" style="width: 192px; margin-left: 10px; margin-bottom: 10px; height: 140px;">
+					<a href="world.php?nc=1&id=1010">
+						<div style="height: 140px;">
+							<img src="https://cdn01.dcfever.com/media/travel/destination//2015/12/1010_destination_image.jpg" width="192" style="margin-top: -25px;">
+						</div>
+						<div class="name" style="line-height: 140px;">
+							台灣
+						</div>
+					</a>
+					</li><li class="box" style="width: 192px; margin-left: 10px; margin-bottom: 10px; height: 140px;">
+					<a href="world.php?nc=1&id=2523">
+						<div style="height: 140px;">
+							<img src="https://cdn01.dcfever.com/media/travel/destination//2015/12/2523_destination_image.jpg" width="192" style="margin-top: -25px;">
+						</div>
+						<div class="name" style="line-height: 140px;">
+							澳門
+						</div>
+					</a>
+					</li><li class="box" style="width: 192px; margin-left: 10px; margin-bottom: 10px; height: 140px;">
+		<a href="destination.php">
+			<div style="height: 140px; background-color: #e3e3e3;">
+				
+			</div>
+			<div class="name" style="line-height: 140px;">
+				更多攝影目的地
+			</div>
+		</a>
+		</li></ul></div>
+
+	<div class="section_header">
+		<i class="fa fa-map-marker"></i>旅攝景點推介
+		<span class="more">
+			<a href="poi.php?type=hot">更多<i class="fa fa-angle-double-right"></i></a>
+		</span>
+	</div>
+
+	<div class="clear">
+		<div class="attraction_wrap clear">
+<div class="attraction_box wide"><div class="image"><a href="attraction.php?id=11977"><img src="https://cdn01.dcfever.com/media/travel/poi/2015/07/11977_poi_image.jpg" width="100%"></a></div><div class="content"><h3><a href="attraction.php?id=11977">塔拉峽谷</a></h3><p>塔拉峽谷是全歐洲河流水深最深的峽谷，河流有如開山劈石般斬開著名的「黑山」。若從首都前往，沿河谷而走...</p></div></div><div class="attraction_box wide"><div class="image"><a href="attraction.php?id=11979"><img src="https://cdn01.dcfever.com/media/travel/poi/2015/07/11979_poi_image.jpg" width="100%"></a></div><div class="content"><h3><a href="attraction.php?id=11979">庫拉辛國家公園</a></h3><p>庫拉辛國家公園佔地 54 平方公里，最著名是公園內大片的原始森林，園內巨木參天，深呼吸一口氣倍覺清新醒...</p></div></div><div class="attraction_box wide"><div class="image"><a href="attraction.php?id=11978"><img src="https://cdn01.dcfever.com/media/travel/poi/2015/07/11978_poi_image.jpg" width="100%"></a></div><div class="content"><h3><a href="attraction.php?id=11978">斯庫台湖</a></h3><p>斯庫台湖是巴爾幹半島最大型的湖泊，佔地逾 400 平方公里，橫跨了黑山共和國與阿爾巴尼亞兩個國家，當中...</p></div></div><div class="attraction_box wide"><div class="image"><a href="attraction.php?id=11630"><img src="https://cdn01.dcfever.com/media/travel/poi/2015/06/11630_poi_image.jpg" width="100%"></a></div><div class="content"><h3><a href="attraction.php?id=11630">布德瓦古城</a></h3><p>與科托爾同為黑山共和國著名的古城，相比之下，布德瓦的古舊氣息較弱，畢竟古城內真的進駐了不少新式餐廳...</p></div></div>		
+		</div>
+	</div>
+
+<div class="section_header">
+	<i class="fa fa-shopping-cart"></i>最新旅攝情報
+	<span class="more">
+		<a href="hotdeals.php">更多<i class="fa fa-angle-double-right"></i></a>
+	</span>
+</div>
+
+<div id="waterfall" class="article_wrap clear">
+<div class="article_waterfall_box main_page clear">
+<div class="image">
+	<a href="deal.php?id=28981"><img src="https://cdn01.dcfever.com/articles/news/2020/09/28981_1601281199_headline.jpg" width="315"></a></div>
+<div class="content">
+<h3><a href="deal.php?id=28981">【鋒加西亞 - 德國工作假期後的世界流浪】沙田行去慈雲山，原來超級簡單【香港郊遊005】</a></h3>
+<p>由沙田行去九龍的「慈沙古道」，我細細個就聽過呢個名~
+
+其實仲行過tim，不過係廿幾年前6歲果陣，記得當時係非常不情願地比...</p>
+</div>
+</div>
+<div class="article_waterfall_box main_page clear">
+<div class="image">
+	<a href="deal.php?id=29006"><img src="https://cdn01.dcfever.com/articles/news/2020/09/29006_1601406535_headline.jpg" width="315"></a></div>
+<div class="content">
+<h3><a href="deal.php?id=29006">整裝待發！Gundam Factory 開幕日定案</a></h3>
+<p>選址日本橫濱山下碼頭的 Gundam Factory Yokohama（【橫濱高達工廠】）原定 10 月 1 日開放。可是受到疫情的影響，開放日期被...</p>
+</div>
+</div>
+<div class="article_waterfall_box main_page">
+<div class="waterfall_ad">				<div style="text-align: center; margin-bottom: 20px;">
+					<!-- /1007060/dcfever_editorial/dcfever_editorial_rect_atf -->
+					<div id='div-gpt-ad-1491820441206-1'>
+					<script>
+					googletag.cmd.push(function() { 
+						googletag.display('div-gpt-ad-1491820441206-1'); 
+					});
+					</script>
+					</div>
+				</div></div></div><div class="article_waterfall_box main_page clear">
+<div class="image">
+	<a href="deal.php?id=28977"><img src="https://cdn01.dcfever.com/articles/news/2020/09/28977_1601275329_headline.jpg" width="315"></a></div>
+<div class="content">
+<h3><a href="deal.php?id=28977">等待黃昏施魔法，彷古木船活現電影情節</a></h3>
+<p>以夕陽為背景的彷古木破船，驟眼看還以為是黑珍珠號遇上麻煩！其實這兩張是網民 Hisa（@Hisaa0808）的作品，據說是刻意等到日...</p>
+</div>
+</div>
+<div class="article_waterfall_box main_page clear">
+<div class="image">
+	<a href="deal.php?id=28969"><img src="https://cdn01.dcfever.com/articles/news/2020/09/28969_1601202954_headline.jpg" width="315"></a></div>
+<div class="content">
+<h3><a href="deal.php?id=28969">模擬自駕遊，飽覽日本高清美景</a></h3>
+<p>大家看看下面的影片，景色不單優美，畫質亦頗高，而且都是日本著名地標！最重要的是，部分畫面明顯是從飛機駕駛艙望出去，亦有...</p>
+</div>
+</div>
+<div class="article_waterfall_box main_page clear">
+<div class="image">
+	<a href="deal.php?id=28927"><img src="https://cdn01.dcfever.com/articles/news/2020/09/28927_1600676637_headline.jpg" width="315"></a></div>
+<div class="content">
+<h3><a href="deal.php?id=28927">【窩夫&amp;蝦子餅】窩夫與家人遊日本關西．HARUKAS 300展望台</a></h3>
+<p>窩夫與家人在大阪的最後一天，有人要最後衝刺購物，窩夫則去了HARUKAS 300展望台。</p>
+</div>
+</div>
+	<div class="moreicon" style="width: 100%; margin-top: -10px;"><a href="hotdeals.php" class="moreicon">更多</a></div>
+</div>
+
+		<div class="section_header">
+			<i class="fa fa-photo"></i>&nbsp;編輯精選旅遊作品
+			<span class="more"><a href="photolist.php?list=latest">更多<i class="fa fa-angle-double-right"></i></a></span>
+		</div>
+
+		<div class="photo_wrap clear">
+<div class="box photodiv" style="overflow: hidden; position: relative; width: 150px; margin-left: 20px; margin-bottom: 20px; margin-right: 0px; overflow: hidden;"><div style="position: absolute; padding: 5px 5px; font-size: 20px; color: gold; background: rgba(25, 25, 25, .5);"><i class="fa fa-trophy"></i></div><a href="photos.php?id=1011&photo_id=126889" data-photo_id="126889" data-page="0" data-sequence="0"><img src="https://cdn01.dcfever.com/media/travel/sharing/20/02/15/1036504_1581758162749_t.jpg" width="150"></a><div class="details"><div class="inside" style="padding: 8px;"><div class="who">by <a href="profile.php?id=1036504" style="color: #ff6600;">林資凱</a></div><div class="location"><a href="world.php?id=1011">韓國</a></div></div></div></div><div class="box photodiv" style="overflow: hidden; position: relative; width: 150px; margin-left: 20px; margin-bottom: 20px; margin-right: 0px; overflow: hidden;"><div style="position: absolute; padding: 5px 5px; font-size: 20px; color: gold; background: rgba(25, 25, 25, .5);"><i class="fa fa-trophy"></i></div><a href="photos.php?id=2120&photo_id=126888" data-photo_id="126888" data-page="0" data-sequence="1"><img src="https://cdn01.dcfever.com/media/travel/sharing/20/02/12/450573_1581486747462_t.jpg" width="150"></a><div class="details"><div class="inside" style="padding: 8px;"><div class="who">by <a href="profile.php?id=450573" style="color: #ff6600;">csleung0610</a></div><div class="location"><a href="world.php?id=2120">富士</a></div></div></div></div><div class="box photodiv" style="overflow: hidden; position: relative; width: 150px; margin-left: 20px; margin-bottom: 20px; margin-right: 0px; overflow: hidden;"><div style="position: absolute; padding: 5px 5px; font-size: 20px; color: gold; background: rgba(25, 25, 25, .5);"><i class="fa fa-trophy"></i></div><a href="photos.php?id=2516&photo_id=126886" data-photo_id="126886" data-page="0" data-sequence="2"><img src="https://cdn01.dcfever.com/media/travel/sharing/20/02/12/450573_1581485931353_t.jpg" width="150"></a><div class="details"><div class="inside" style="padding: 8px;"><div class="who">by <a href="profile.php?id=450573" style="color: #ff6600;">csleung0610</a></div><div class="location"><a href="world.php?id=2516">岐阜</a></div></div></div></div><div class="box photodiv" style="overflow: hidden; position: relative; width: 150px; margin-left: 20px; margin-bottom: 20px; margin-right: 0px; overflow: hidden;"><div style="position: absolute; padding: 5px 5px; font-size: 20px; color: gold; background: rgba(25, 25, 25, .5);"><i class="fa fa-trophy"></i></div><a href="photos.php?id=2512&photo_id=126884" data-photo_id="126884" data-page="0" data-sequence="3"><img src="https://cdn01.dcfever.com/media/travel/sharing/20/02/09/447906_1581262067290_t.jpg" width="150"></a><div class="details"><div class="inside" style="padding: 8px;"><div class="who">by <a href="profile.php?id=447906" style="color: #ff6600;">小蒙</a></div><div class="location"><a href="world.php?id=2512">新疆</a></div></div></div></div><div class="box photodiv" style="overflow: hidden; position: relative; width: 150px; margin-left: 20px; margin-bottom: 20px; margin-right: 0px; overflow: hidden;"><div style="position: absolute; padding: 5px 5px; font-size: 20px; color: gold; background: rgba(25, 25, 25, .5);"><i class="fa fa-trophy"></i></div><a href="photos.php?id=2035&photo_id=126880" data-photo_id="126880" data-page="0" data-sequence="4"><img src="https://cdn01.dcfever.com/media/travel/sharing/20/02/08/62868_1581165319454_t.jpg" width="150"></a><div class="details"><div class="inside" style="padding: 8px;"><div class="who">by <a href="profile.php?id=62868" style="color: #ff6600;">beeb</a></div><div class="location"><a href="world.php?id=2035">葡萄牙</a></div></div></div></div><div class="box photodiv" style="overflow: hidden; position: relative; width: 150px; margin-left: 20px; margin-bottom: 20px; margin-right: 0px; overflow: hidden;"><div style="position: absolute; padding: 5px 5px; font-size: 20px; color: gold; background: rgba(25, 25, 25, .5);"><i class="fa fa-trophy"></i></div><a href="photos.php?id=2545&photo_id=126875" data-photo_id="126875" data-page="0" data-sequence="5"><img src="https://cdn01.dcfever.com/media/travel/sharing/20/02/08/703056_1581150928953_t.jpg" width="150"></a><div class="details"><div class="inside" style="padding: 8px;"><div class="who">by <a href="profile.php?id=703056" style="color: #ff6600;">M.L.YIP</a></div><div class="location"><a href="world.php?id=2545">香港</a></div></div></div></div>
+		</div>
+
+
+	<div class="clear">
+	<div class="travel_left">
+	<div class="clear">
+		<div class="section_header">
+			<i class="fa fa-paper-plane"></i>最新旅行、攝影遊記 
+			<span class="more">
+				<a href="traveloguelist.php">更多<i class="fa fa-angle-double-right"></i></a>
+			</span>
+		</div>
+
+		<div class="manage_travelogue">
+		<ul>
+			<li class="clear">
+				<div class="head_image">
+					<a href="readtravelogue.php?id=45733">
+					<div id="head_image_45733"><img src="https://cdn01.dcfever.com/media/travel/travelogue/cover/20/10/45733_1601717712246.jpg"></div>					</a>
+				</div>
+				<div class="content">	
+					<p class="title">
+					<a href="readtravelogue.php?id=45733">灣景國際酒店 灣景廳 生蠔 和牛 蟹腳 刺身 主題自助晚餐 staycation buffet The Harbourview MÕVENPICK 八款口味任食 包果汁可樂任飲 甜品豐富</a>
+					</p>
+					<p class="info">
+											by <a href="utravelogue.php?id=731884">
+						林公子遊記</a>
+					</p>
+					<p class="info">
+						<span class="counter">
+							<i class="fa fa-calendar" style=""></i>&nbsp;2020-10-03						</span>
+						<span class="counter">
+							<i class="fa fa-eye" style=""></i>&nbsp;28 
+						</span>
+						<span class="counter">
+							<i class="fa fa-comments" style=""></i>&nbsp;0 
+						</span>
+						<span class="counter">
+							<i class="fa fa-thumbs-up" style=""></i>&nbsp;0						</span>
+					</p>
+					<p class="abstract">&nbsp;
+&nbsp;
+
+
+&nbsp;
+&nbsp;
+https://www.mrlamsan.com/2020/10/Harbourview%20.html
+http://www.weshare.hk/kasang0728/articles/4709016
+&nbsp;
+&nbsp;
+
+今期灣景酒店重開晚市自...... <a href="readtravelogue.php?id=45733">閱讀內文</a></p>
+				</div>
+			</li>
+			<li class="clear">
+				<div class="head_image">
+					<a href="readtravelogue.php?id=45722">
+					<div id="head_image_45722"><img src="https://cdn01.dcfever.com/media/travel/travelogue/cover/20/10/45722_1601560666273.jpg"></div>					</a>
+				</div>
+				<div class="content">	
+					<p class="title">
+					<a href="readtravelogue.php?id=45722">澎湖【美景晨昏拍整天】夢境菊島之旅</a>
+					</p>
+					<p class="info">
+											by <a href="utravelogue.php?id=820284">
+						bocst2017</a>
+					</p>
+					<p class="info">
+						<span class="counter">
+							<i class="fa fa-calendar" style=""></i>&nbsp;2020-10-01						</span>
+						<span class="counter">
+							<i class="fa fa-eye" style=""></i>&nbsp;24 
+						</span>
+						<span class="counter">
+							<i class="fa fa-comments" style=""></i>&nbsp;0 
+						</span>
+						<span class="counter">
+							<i class="fa fa-thumbs-up" style=""></i>&nbsp;0						</span>
+					</p>
+					<p class="abstract">澎湖【美景晨昏拍整天】夢境菊島之旅... <a href="readtravelogue.php?id=45722">閱讀內文</a></p>
+				</div>
+			</li>
+			<li class="clear">
+				<div class="head_image">
+					<a href="readtravelogue.php?id=45721">
+					<div id="head_image_45721"><img src="https://cdn01.dcfever.com/media/travel/travelogue/cover/20/10/45721_1601514971654.jpg"></div>					</a>
+				</div>
+				<div class="content">	
+					<p class="title">
+					<a href="readtravelogue.php?id=45721">蘭嶼【星空美夢夜未眠】晨昏＊銀河特攻隊！</a>
+					</p>
+					<p class="info">
+											by <a href="utravelogue.php?id=820284">
+						bocst2017</a>
+					</p>
+					<p class="info">
+						<span class="counter">
+							<i class="fa fa-calendar" style=""></i>&nbsp;2020-10-01						</span>
+						<span class="counter">
+							<i class="fa fa-eye" style=""></i>&nbsp;29 
+						</span>
+						<span class="counter">
+							<i class="fa fa-comments" style=""></i>&nbsp;0 
+						</span>
+						<span class="counter">
+							<i class="fa fa-thumbs-up" style=""></i>&nbsp;0						</span>
+					</p>
+					<p class="abstract">蘭嶼【星空美夢夜未眠】晨昏＊銀河特攻隊！... <a href="readtravelogue.php?id=45721">閱讀內文</a></p>
+				</div>
+			</li>
+			<li class="clear">
+				<div class="head_image">
+					<a href="readtravelogue.php?id=45719">
+					<div id="head_image_45719"><img src="https://cdn01.dcfever.com/media/travel/travelogue/cover/20/09/45719_1601473187536.jpg"></div>					</a>
+				</div>
+				<div class="content">	
+					<p class="title">
+					<a href="readtravelogue.php?id=45719">蘭嶼【手機影視界】晨昏＊銀河特攻隊！</a>
+					</p>
+					<p class="info">
+											by <a href="utravelogue.php?id=820284">
+						bocst2017</a>
+					</p>
+					<p class="info">
+						<span class="counter">
+							<i class="fa fa-calendar" style=""></i>&nbsp;2020-09-30						</span>
+						<span class="counter">
+							<i class="fa fa-eye" style=""></i>&nbsp;32 
+						</span>
+						<span class="counter">
+							<i class="fa fa-comments" style=""></i>&nbsp;0 
+						</span>
+						<span class="counter">
+							<i class="fa fa-thumbs-up" style=""></i>&nbsp;0						</span>
+					</p>
+					<p class="abstract">蘭嶼【手機影視界】晨昏＊銀河特攻隊！... <a href="readtravelogue.php?id=45719">閱讀內文</a></p>
+				</div>
+			</li>
+			<li class="clear">
+				<div class="head_image">
+					<a href="readtravelogue.php?id=45716">
+					<div id="head_image_45716"><img src="https://cdn01.dcfever.com/media/travel/travelogue/cover/20/09/45716_1601418634855.jpg"></div>					</a>
+				</div>
+				<div class="content">	
+					<p class="title">
+					<a href="readtravelogue.php?id=45716">【離不開瞬間的美】台灣旅行攝影</a>
+					</p>
+					<p class="info">
+											by <a href="utravelogue.php?id=820284">
+						bocst2017</a>
+					</p>
+					<p class="info">
+						<span class="counter">
+							<i class="fa fa-calendar" style=""></i>&nbsp;2020-09-30						</span>
+						<span class="counter">
+							<i class="fa fa-eye" style=""></i>&nbsp;35 
+						</span>
+						<span class="counter">
+							<i class="fa fa-comments" style=""></i>&nbsp;0 
+						</span>
+						<span class="counter">
+							<i class="fa fa-thumbs-up" style=""></i>&nbsp;0						</span>
+					</p>
+					<p class="abstract">【離不開瞬間的美】台灣旅行攝影... <a href="readtravelogue.php?id=45716">閱讀內文</a></p>
+				</div>
+			</li>
+			</ul>
+			<div class="sp">
+			<a href="traveloguelist.php" style="float: right; display: inline-block; padding-left: 30px; font-size: 15px;">更多遊記<i class="fa fa-angle-double-right" style="font-size: 20px; color: #ffaa00; margin-left: 5px;"></i></a>
+			</div>
+		</div>
+	</div>
+
+	</div>
+
+    <div class="travel_right"
+		<div style="margin-bottom: 20px; background-color: #fff, border-radius: 5px;">
+			<div data-skyscanner-widget="SearchWidget"
+				 data-origin-geo-lookup="true"  
+				 data-associate-id="API_B2B_19010_00001"  
+				 data-locale="zh-HK"
+				 data-currency="HKD">
+			</div>
+
+			<script src="https://widgets.skyscanner.net/widget-server/js/loader.js" async></script>
+		</div>
+
+		<div style="text-align: center; margin-bottom: 20px;">
+			<!-- /1007060/dcfever_editorial/dcfever_editorial_rect_middle -->
+			<div id='div-gpt-ad-1491820441206-2'>
+			<script>
+			googletag.cmd.push(function() { 
+				googletag.display('div-gpt-ad-1491820441206-2'); 
+			});
+			</script>
+			</div>
+		</div>
+			<div style="text-align: center; margin-bottom: 20px;">
+				<!-- /1007060/dcfever_editorial/dcfever_editorial_rect_middle2 -->
+				<div id='div-gpt-ad-1491820441206-3'>
+				<script>
+				googletag.cmd.push(function() { 
+					googletag.display('div-gpt-ad-1491820441206-3'); 
+				});
+				</script>
+				</div>
+			</div>
+	</div>	
+	</div>
+
+	<div style="margin-top: 30px;">
+		<div style="text-align: center; margin-bottom: 20px;">
+			<!-- /1007060/dcfever_travel/dcfever_travel_bottom -->
+			<div id='div-gpt-ad-1491820441206-99'>
+			<script>
+			googletag.cmd.push(function() { 
+				googletag.display('div-gpt-ad-1491820441206-99'); 
+			});
+			</script>
+			</div>
+		</div>
+	</div>
+
+<script language="javascript">
+$(document).ready(function() {
+	$("#search_btn").click(function(e) {
+		$("#search_form").trigger("submit");
+	});
+	$("#search_form").submit(function(e) {
+		e.preventDefault();
+		keyword = $("input[name=keyword]").val();
+		if (keyword == '')
+		{
+			alert("請輸入搜尋的地方/景點名稱!");
+			return false;
+		}
+		else
+		{
+			/* do ajax search of the place */
+			$.ajax({
+				url: "ajaxkeywordsearch.php?type=ajax&form_action=search",
+				dataType: "json",
+				data: {
+					term: keyword
+				}
+			}).done(function( data ) {
+				if (data[0].type == 1) {
+					self.location = "world.php?id=" + data[0].target_id;
+				} else if (data[0].type == 2) {
+					self.location = "attraction.php?id=" + data[0].target_id;
+				}
+			}).fail(function (jqXHR, textStatus) {
+				alert('找不到地方/景點名稱, 請重新輸入!');
+				return false;
+			});
+		}
+	});
+});
+setInterval(function() {
+                  window.location.reload();
+                }, 300000); 
+</script>
+</div> <!-- end .main_wrapper -->
+
+<style type="text/css">
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 10000000000;	
+}
+#main_footer {
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.6em; 
+	border-top: solid 1px #eaebec; 
+	margin-top: 30px; 
+	color: #666; 
+	background-color: #292c32; 
+	/*
+	background-image: url("http://www.responsivegridsystem.com/images/footerback.png");
+	background-repeat: repeat;
+	*/
+}
+.footer {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px 0px 40px 0px;
+}
+.footer a {
+	color: #8f95a3;
+	font-size: 14px;
+}
+.footer_inner {
+	box-sizing: border-box;
+	max-width: 1000px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 15px;
+}
+.footer_inner .footer_column {
+	box-sizing: border-box;
+	width: 16.66%;
+	padding: 0px 5px 0px 25px;
+	float: left;
+	text-align: left;
+	color: #ccc;
+}
+.footer_inner .footer_column h2.header {
+	color: #eee;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+</style>
+
+<div id="main_footer">
+	<div class="footer">
+		<div class="footer_inner clear">
+			<div class="footer_column_group clear">
+				<div class="footer_column">
+					<h2 class="header">新聞互動</h2>
+					<ul>
+						<li><a href="/news/index.php">新聞中心</a></li>
+						<li><a href="/column/index.php">Fever 達人</a></li>
+						<li><a href="/fillens/index.php">Fillens</a></li>
+						<li><a href="/models/index.php">FeverModel</a></li>
+						<li><a href="/photosharing/index.php">作品發表區</a></li>
+						<li><a href="/forum/index.php">討論區</a></li>
+					</ul>
+				</div>
+				<div class="footer_column">
+					<h2 class="header">相機手機</h2>
+					<ul>
+						<li><a href="/cameras/database.php">相機資料館</a></li>
+						<li><a href="/lens/index.php">鏡頭資料館</a></li>
+						<li><a href="/phones/database.php">手機資料館</a></li>
+						<li><a href="/tables/database.php">平板資料館</a></li>
+						<li><a href="/ureviews/index.php">產品用家心得</a></li>
+					</ul>
+				</div>
+				<div class="footer_column">
+					<h2 class="header">二手買賣</h2>
+					<ul>
+						<li><a href="/trading/index.php">買賣區首頁</a></li>
+						<li><a href="/trading/listing.php?category=1">攝影產品</a></li>
+						<li><a href="/trading/listing.php?category=3">手機通訊</a></li>
+						<li><a href="/trading/listing.php?category=2">電腦資訊</a></li>
+						<li><a href="/trading/listing.php?category=44">影音家電</a></li>
+						<li><a href="/trading/listing.php?category=45">手錶潮流</a></li>
+						<li><a href="/trading/search.php">搜尋物品</a></li>
+					</ul>
+				</div>
+				<div class="footer_column">
+					<h2 class="header">環球旅遊</h2>
+					<ul>
+						<li><a href="/travel/hongkong.php">香港攝影好去處</a></li>
+						<li><a href="/travel/hotdeals.php">旅遊熱賣</a></li>
+						<li><a href="/travel/destination.php">目的地攻略</a></li>
+						<li><a href="/travel/photolist.php">旅遊作品</a></li>
+						<li><a href="/travel/listing.php">達人旅遊分享</a></li>
+					</ul>
+				</div>
+				<div class="footer_column">
+					<h2 class="header">shop@dcfever</h2>
+					<ul>
+						<li><a href="/shop/info.php?type=address">門市資料</a></li>
+						<li><a href="/shop/list.php">最新貨品</a></li>
+						<li><a href="/shop/list.php?cat=1">熱賣相機</a></li>
+						<li><a href="/shop/list.php?cat=2">熱賣鏡頭</a></li>
+						<li><a href="/shop/list.php?cat=73">熱賣 DSLR</a></li>
+						<li><a href="/shop/list.php?cat=170">熱賣 EVIL</a></li>
+					</ul>
+				</div>
+				<div class="footer_column">
+					<h2 class="header">DCFever</h2>
+					<ul>
+						<li><a href="/documents/aboutus.php">關於我們</a></li>
+						<li><a href="/documents/agreement.php">使用條款</a></li>
+						<li><a href="/documents/privacy.php">私隱條例</a></li>
+						<li><a href="/documents/contactus.php">聯絡我們</a></li>
+						<li><a href="/users/register.php">會員登記</a></li>
+						<li><a href="/users/forgetpassword.php">忘記密碼</a></li>
+					</ul>
+				</div>
+			</div>
+
+			
+			<div style="color: #777; clear: both; padding-top: 50px;">Copyright © 2020 DCFever.com. All rights reserved.</div>
+						<div style="display: block;">
+						</div>
+					</div>
+	</div>
+</div>
+
+</div>
+
+</body>
+
+<script language="javascript">
+$(document).ready(function() {
+	/*
+	$(".primary_nav li").click(function(e) {
+		e.preventDefault();
+		$(this).siblings("li").removeClass("selected");
+		$(this).addClass("selected");
+	});
+	if ('ontouchstart' in document.documentElement) {
+		istouchdevice = true;
+	} else {
+		istouchdevice = false;
+	}
+	if (!istouchdevice) {
+		//alert('no touch device');
+		$(".primary_nav").hoverIntent({
+			over: makeTall,
+			out: makeShort,
+			selector: 'li',
+			timeout: 300
+		});
+	}
+	else
+	{
+		//alert('touch device');
+	}
+
+	function makeTall() {
+		$(this).find(".sub_nav").show();
+	}
+	function makeShort() {
+		$(this).find(".sub_nav").hide();
+	}
+	*/
+		$(".primary_nav > li").hover(
+		function() {
+			$(this).find(".sub_nav").show();
+		}, function() {
+			$(this).find(".sub_nav").hide();
+		});
+
+		$(".primary_nav > li").on("touchstart", function (e) {
+			"use strict"; //satisfy the code inspectors
+			var link = $(this); //preselect the link
+			$(".primary_nav > li").not(this).find(".sub_nav").hide();
+			$(".primary_nav > li").not(this).removeClass("hover");
+
+			if (link.hasClass('hover')) {
+				return true;
+			} else {
+				if ($(this).find('span.expander').length != 0)
+				{
+					link.addClass("hover");
+					$(this).find(".sub_nav").show();
+
+					$(".primary_nav > li").not(this).removeClass("hover");
+					e.preventDefault();
+					return false; //extra, and to make sure the function has consistent return points
+				}
+			}
+		});
+
+
+	$(".travel_nav_wrapper").wrap('<div class="nav-placeholder"></div>');	
+	$(".nav-placeholder").height($(".travel_nav_wrapper").outerHeight());
+
+	var navOffset = $(".travel_nav_wrapper").offset().top;
+	$(window).scroll(function() {
+		var scrollPos = $(window).scrollTop();
+		if (scrollPos >= navOffset) {
+			$(".travel_nav_wrapper").addClass("fixed");
+			//$(".travel_nav_bar_wrapper").hide();
+		} else {
+			$(".travel_nav_wrapper").removeClass("fixed");
+			//$(".travel_nav_bar_wrapper").show();
+		}
+	});
+
+
+});
+</script>
+<style type="text/css">
+ul.primary_nav > li.hover {
+	background-color: #fff;
+	border-radius: 5px 5px 0px 0px;
+}
+ul.primary_nav > li.hover > a {
+	color: #ff6600;
+}
+</style>
+</html>

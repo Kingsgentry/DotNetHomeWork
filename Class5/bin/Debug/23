@@ -1,0 +1,1510 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="zh-HK">
+<meta charset="UTF-8" />
+<title>DCFever.com 香港最受歡迎數碼產品資訊互動平台</title>
+<meta name="viewport" content="width=device-width" />
+<meta name="google-site-verification" content="EasXSwb9CERd-uOQMtLGIFJYOJkuQrhnVHsmMsiWwWM" /><meta property="fb:app_id" content="301017970038593" />
+<link rel="SHORTCUT ICON" href="//cdn01.dcfever.com/images/favicon_new.ico" />
+<link href="//cdn01.dcfever.com/v4/css/global_20200720.css" rel="stylesheet" />
+<link href="//cdn01.dcfever.com/v4/css/grid_20150811.css" rel="stylesheet" />
+<link href="//cdn01.dcfever.com/images/apple_180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="//cdn01.dcfever.com/images/android_192.png" rel="icon" sizes="192x192" />
+
+
+<link href="/v4/css/index_20150811.css" rel="stylesheet">
+<link href="/v4/css/index_v2.css" rel="stylesheet">
+<link href="v4/css/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="/v4/js/appleple-modal/modal-video.min.css" rel="stylesheet">
+<script src="https://static.dcfever.com/js/jquery/jquery-2.2.4.js"></script>
+<script src="/v4/js/appleple-modal/jquery-modal-video.js" crossorigin="anonymous"></script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+	var fn_mobile_pageskin = "false"; 
+	if (screen.width >= 375) { fn_mobile_pageskin = "true"; } 
+	googletag.pubads().setTargeting("inskin_mobile_yes", fn_mobile_pageskin);
+
+	var fn_desktop_pageskin = "false"; 
+	if (window.innerWidth >= 1460) { fn_desktop_pageskin = "true"; } 
+	googletag.pubads().setTargeting("inskin_desktop_yes", fn_desktop_pageskin);
+
+	googletag.defineSlot('/1007060/dcfever_home/dcfever_home_rect_atf', [300, 250], 'div-gpt-ad-1488508262590-a').addService(googletag.pubads());
+    googletag.defineSlot('/1007060/dcfever_home/dcfever_home_rect_atf2', [[300, 250],[300, 600]], 'div-gpt-ad-1488508262590-0').addService(googletag.pubads());
+    googletag.defineSlot('/1007060/dcfever_home/dcfever_home_top', [[728, 90],[970,250]], 'div-gpt-ad-1488508262590-1').addService(googletag.pubads());
+    googletag.defineSlot('/1007060/dcfever_home/dcfever_home_bottom', [[728, 90], [970, 90], [970,250]], 'div-gpt-ad-1488508262590-99').addService(googletag.pubads());
+    googletag.defineOutOfPageSlot('/1007060/dcfever_home/dcfever_home_outofpage', 'div-gpt-ad-1488508262590-2').addService(googletag.pubads());
+
+	googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+	googletag.pubads().enableLazyLoad({
+		fetchMarginPercent: 100,  // Fetch slots within 5 viewports.
+		renderMarginPercent: 100,  // Render slots within 2 viewports.
+		mobileScaling: 2.0  // Double the above values on mobile.
+	});
+    googletag.enableServices();
+
+
+  });
+</script>
+<!-- Google Analytics Tag -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-374532-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Start Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"4hIqq1FYxz20cv", domain:"dcfever.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=4hIqq1FYxz20cv" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Certify Javascript -->  
+
+</head>
+
+<body>
+<style type="text/css"></style><div class="site_wrapper">
+
+<!-- off_canvas -->
+<div class="off_canvas">
+	<div class="side_nav_content news  hidden-md">
+		<div class="hidden-md header">
+			<a href="#" class="close_off_canvas"><i class="fa fa-times"></i></a>
+			歡迎來到 DCFever		</div>
+
+		<ul class="side_nav_selection">
+<li class="hidden-md"><a href="/users/login.php"><i class="fa fa-sign-in"></i> 登入</a></li>			<li class="hidden-md"><a href="/pm/index.php"><i class="fa fa-envelope"></i> 私人訊息</a></li>
+			<li class="hidden-md"><a href="/users/index.php"><i class="fa fa-user"></i> 會員中心</a></li>
+			<li>
+				<a href="javascript:void(0)" class="hidden-md toggle_side_nav_expandable_nil">
+					網站頻道<i class="fa fa-caret-down" style="float: right; line-height: 45px; display: none;"></i>
+				</a>
+				<div class="mobile_expandable_div">
+					<ul class="side_nav_all clear">
+						<li><a href="https://www.dcfever.com/index.php"><i class="fa fa-home"></i>首頁</a></li>
+						<li><a href="/news/index.php">新聞中心</a></li>
+						<li><a href="/cameras/index.php">相機鏡頭</a></li>
+						<li><a href="/phones/index.php">手機平板</a></li>
+						<li><a href="/cars/index.php">汽車熱話</a></li>
+						<li><a href="/travel/index.php">攝影旅遊</a></li>
+						<li><a href="/trading/index.php">二手買賣</a></li>
+						<li><a href="/photosharing/index.php">作品發表</a></li>
+						<li><a href="/shop/index.php">shop@dcfever</a></li>
+						<li><a href="/column/index.php">Fever 達人</a></li>
+												<li class="verytop_nav">
+							<a href="#" class="toggle_verytop_nav visible-md visible-lg">更多<i class="fa fa-caret-down" style="margin-left: 5px;"></i></a>
+							<ul class="verytop_nav_expandable">
+								<li><a href="/models/index.php">模特兒</a></li>
+								<li><a href="/forum/index.php">討論區</a></li>
+								<li><a href="/fillens/index.php">Fillens</a></li>
+			
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div><!-- fullscreen menu -->
+<div class="fullscreen_menu">
+	<div class="header">
+		<span class="title"><i class="fa fa-search"></i> 文章搜尋</span>
+		<a href="#" class="close_fullscreen_menu"><i class="fa fa-times"></i></a>
+	</div>
+	<ul class="fullscreen_selection">
+		<li><a href="/news/search.php?start_search=true">文章內容搜尋</a></li>
+		<!--
+		<li><a href="pm.php">產品搜尋</a></li>
+		<li><a href="pm.php">購物優惠搜尋</a></li>
+		<li><a href="pm.php">二手物品搜尋</a></li>
+		<li><a href="pm.php">會員搜尋</a></li>
+		-->
+	</ul>
+</div>
+
+<!-- canvas -->
+<div class="canvas">
+	<div class="canvas_overlay_mask"></div>
+	<div class="container-fluid site_header">
+	<div class="row">
+		<div class="nav_level_one">
+			<a href="https://www.dcfever.com/index.php" class="logo">
+				<img src="//cdn01.dcfever.com/images/dcfever_logo_png.png" height="32" class="hidden-md">
+				<img src="//cdn01.dcfever.com/images/dcfever_logo_png.png" height="32" class="visible-md-inline visible_large_desktop_inline">
+								<div class="logo_tag visible-md visible-lg">
+					攝影—生活的探索				</div>
+			</a>
+			<a href="#" class="toggle_off_canvas nav_bars">
+				<i class="fa fa-bars"></i>
+			</a>
+			<a href="#" class="toggle_mobile_search_box nav_search">
+				<i class="fa fa-search"></i>
+			</a>
+			<div class="user_functions visible-md visible-lg">
+
+				<div class="desktop_search_box active">
+									<div class="search_bar">
+						<form method="get" action="/news/search.php" name="desktop_search_news" id="desktop_search_news">
+							<input type="text" name="keyword" value="" placeholder="搜尋文章">
+							<input type="hidden" name="form_action" value="search_news_action">
+							<a href="#" id="submit_desktop_search" class="submit_desktop_search"><i class="fa fa-search"></i></a>
+						</form>
+					</div>
+					<div class="toggle_desktop_search"><i class="fa fa-search"></i><span class="caption">&nbsp;搜尋</span></div> 
+				</div>
+				
+				<div class="button"><a href="/users/login.php">會員登入</a></div><a href="/users/register.php">會員登記</a><span class="sep">|</span><a href="/users/index.php">會員中心</a>			</div>
+		</div>
+	</div>		<div class="row">
+			<div class="nav_level_two_wrapper">
+				<div class="nav_level_two">
+					<ul class="nav_selection clear">
+						<li class="selected"><a href="https://www.dcfever.com/index.php"><span><b class="visible-md-inline visible-lg-inline"><i class="fa fa-home" style="margin-right: 5px;"></i></b>首頁</span></a></li>
+						<li><a href="/news/index.php"><span>新聞<b class="visible-md-inline visible-lg-inline">中心</b></span></a></li>
+						<li><a href="/cameras/index.php"><span>相機<b class="visible-md-inline visible-lg-inline">鏡頭</b></span></a></li>
+						<li><a href="/phones/index.php"><span>手機<b class="visible-md-inline visible-lg-inline">平板</b></span></a></li>
+						<li><a href="/cars/index.php"><span>汽車<b class="visible-md-inline visible-lg-inline">熱話</b></span></a></li>
+						<li><a href="/trading/index.php"><span><b class="visible-md-inline visible-lg-inline">二手買賣</b><span class="visible-xs-inline">二手</span></span></a></li>
+						<li class="visible-md-tablecell visible-lg-tablecell"><a href="/travel/index.php"><span>攝影旅遊</span></a></li>
+						<li class="visible-md-tablecell visible-lg-tablecell"><a href="/photosharing/index.php"><span>作品發表</span></a></li>
+						<li class="visible-md-tablecell visible-lg-tablecell" style="width: 10.5%;"><a href="/shop/index.php"><span>shop@dcfever</span></a></li>
+						<li class="visible-md-tablecell visible-lg-tablecell"><a href="/models/index.php"><span>模特兒</span></a></li>
+						<li class="visible-md-tablecell visible-lg-tablecell"><a href="/column/index.php"><span>Fever 達人</span></a></li>
+						<li class="visible-md-tablecell visible-lg-tablecell"><a href="/forum/index.php"><span>討論區</span></a></li>
+
+						<li class="hidden_desktop">
+							<a href="#" class="toggle_nav_level_two"><span>更多<i class="fa fa-caret-down" style="margin-left: 5px;"></i></span></a>
+							<ul class="expandable clear" style="display: none;">
+								<li><a href="/travel/index.php"><span>攝影旅遊</span></a></li>
+								<li><a href="/photosharing/index.php"><span>作品發表</span></a></li>
+								<li><a href="/reviews/index.php"><span>用家心得</span></a></li>
+								<li><a href="/shop/index.php"><span>shop@dcfever</span></a></li>
+								<li><a href="/models/index.php"><span>模特兒</span></a></li>
+								<li><a href="/column/index.php"><span>Fever 達人</span></a></li>
+								<li><a href="/forum/index.php"><span>討論區</span></a></li>
+							</ul>
+						</li>
+					</ul>
+					<div class="mobile_search_box hidden-md hidden-lg clearfix" style="display: none;">
+						<form method="get" action="/news/search.php" name="mobile_search_news" id="mobile_search_news">
+							<input type="text" name="keyword" value="" placeholder="搜尋文章">
+							<input type="hidden" name="form_action" value="search_news_action">
+							<div class="close_searchbox"><i class="fa fa-close"></i></div>
+						</form>
+					</div>
+				</div>			</div>
+		</div>
+	</div>
+
+	
+	<div class="container mainpage_section_one">
+		<div class="row">
+			<div class="col-md-left col-lg-left">
+
+		<div class="row">
+			<div class="desktop_gutter">
+				<div class="flexslider mainpage_slider">
+					<ul class="slides">
+					<li>
+						<a href="/news/readnews.php?id=28771">
+						<img src="//cdn01.dcfever.com/articles/news/2020/09/28771_1601358176_bigheadline.jpg">
+						<!-- <span class="caption">【鋒加西亞 - 德國工作假期後的世界流浪】赤徑與鹹田灣，宛如沙巴的美麗海灣 【香港郊遊004】</span> -->
+						<div class="slider_caption">【鋒加西亞 - 德國工作假期後的世界流浪】赤徑與鹹田灣，宛如沙巴的美麗海灣 【香港郊遊004】</div>
+						</a>
+							</li><li>
+						<a href="/news/readnews.php?id=28769">
+						<img src="//cdn01.dcfever.com/articles/news/2020/09/28769_1601030056_bigheadline.jpg">
+						<!-- <span class="caption">【椒絲腐乳西瓜 專欄】再戰 lomography 菲林 ( 120 篇 )</span> -->
+						<div class="slider_caption">【椒絲腐乳西瓜 專欄】再戰 lomography 菲林 ( 120 篇 )</div>
+						</a>
+							</li><li>
+						<a href="/news/readnews.php?id=28712">
+						<img src="//cdn01.dcfever.com/articles/news/2020/09/28712_1600654029_bigheadline.jpg">
+						<!-- <span class="caption">【PixsoulHK】【遊潭觀瀑】屏南石澗</span> -->
+						<div class="slider_caption">【PixsoulHK】【遊潭觀瀑】屏南石澗</div>
+						</a>
+							</li><li>
+						<a href="/news/readnews.php?id=28708">
+						<img src="//cdn01.dcfever.com/articles/news/2020/09/28708_1600311642_bigheadline.jpg">
+						<!-- <span class="caption">【攝光寫影 專欄】新田荷塘五月天</span> -->
+						<div class="slider_caption">【攝光寫影 專欄】新田荷塘五月天</div>
+						</a>
+							</li><li>
+						<a href="/news/readnews.php?id=28664">
+						<img src="//cdn01.dcfever.com/articles/news/2020/09/28664_1600050899_bigheadline.jpg">
+						<!-- <span class="caption">【Zenian Kwong 專欄】【香港走一回】十個你不能不知道的日落位置</span> -->
+						<div class="slider_caption">【Zenian Kwong 專欄】【香港走一回】十個你不能不知道的日落位置</div>
+						</a>
+							</li>					</ul>
+				</div>
+			</div>
+		</div>
+		<link rel="stylesheet" href="/v4/js/flexslider/flexslider.css" type="text/css" media="screen" />
+		<div class="row">
+			<script src="/v4/js/flexslider/jquery.flexslider.js"></script>
+
+			<!-- flexslider -->
+			<script>
+				$('.flexslider').flexslider({
+					animation: "slide",
+					directionNav: true,
+					slideshow: true,
+					animationLoop: true
+				});
+			</script>
+		</div>
+
+				<div class="row">
+					<div class="article_block two_column clear">
+						<div class="clearfix" style="padding-bottom: 0px;"><ul class="slides">		<!-- first slide -->
+		<li>
+		<div class="col-xs-6 col-md-4">
+			<div class="article_div clear">
+				<div class="image_col">
+					<a href="/news/readnews.php?id=29005" onclick="trackLink(this, 'Hot News', 'Click', '3'); return false;"><img src="https://cdn01.dcfever.com/articles/news/2020/10/29005_1601779992_icon.jpg" width="100%"></a>
+				</div>
+				<div class="content_col">
+					<span class="title">
+						<a href="/news/readnews.php?id=29005" onclick="trackLink(this, 'Hot News', 'Click', '3'); return false;">Apple Watch SE 測試：針對 Family Share 功能推出</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-6 col-md-4">
+			<div class="article_div clear">
+				<div class="image_col">
+					<a href="/news/readnews.php?id=29004" onclick="trackLink(this, 'Hot News', 'Click', '4'); return false;"><img src="https://cdn01.dcfever.com/articles/news/2020/10/29004_1601490417_icon.jpg" width="100%"></a>
+				</div>
+				<div class="content_col">
+					<span class="title">
+						<a href="/news/readnews.php?id=29004" onclick="trackLink(this, 'Hot News', 'Click', '4'); return false;">夢寐明眸：Fujinon XF 50mm F1.0 R WR 測試</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 hidden-md"></div>
+		<div class="col-xs-6 col-md-4">
+			<div class="article_div clear">
+				<div class="image_col">
+					<a href="/news/readnews.php?id=29016" onclick="trackLink(this, 'Hot News', 'Click', '5'); return false;"><img src="https://cdn01.dcfever.com/articles/news/2020/09/29016_1601475595_icon.jpg" width="100%"></a>
+				</div>
+				<div class="content_col">
+					<span class="title">
+						<a href="/news/readnews.php?id=29016" onclick="trackLink(this, 'Hot News', 'Click', '5'); return false;">【新車試駕】氣派非凡！Mercedes-Maybach S560 F...</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		</li>
+</ul></div>					</div>
+				</div>
+
+				<!-- flexslider -->
+				<script>
+					$('.flexslider').flexslider({
+						animation: "slide",
+						directionNav: false,
+						slideshow: false,
+						animationLoop: false
+					});
+				</script>
+			</div>
+			<div class="col-md-right col-lg-right">
+								<div class="video">
+									<div class="js-modal-btn" data-video-id="PkOAklT6y9Y" style="background-color: #fff; width: 300px; height: 250px; margin-left: auto; margin-right: auto; position: relative; overflow: hidden;">
+						<div style="height: 175px; overflow: hidden;">
+							<img src="//cdn01.dcfever.com/images/play-button-png-filename-play-button-png-237.png" width="100" style="position: absolute; top: 40px; left: 100px; opacity: 0.7;">
+							<img src="https://img.youtube.com/vi/PkOAklT6y9Y/hqdefault.jpg" style="width: 105%; margin-top: -30px;">
+						</div>
+						<div style="padding: 10px;">
+							輕便可換鏡　試用 Panasonic G100 主打 Vlogger 機種						</div>
+					</div>
+				</div>
+				<script>
+				$(document).ready(function() {
+					$(".js-modal-btn").click(function(e) {
+						$.post("/news/videoclick.php", { video_id : 135, form_action : 'register_video_click_action', time : '2020-10-05 11:24:49'});
+					});
+					$(".js-modal-btn").modalVideo();
+				});
+				</script>
+				<div class="large_rect">
+									<!-- /1007060/dcfever_home/dcfever_home_rect_atf -->
+					<div id='div-gpt-ad-1488508262590-a'>
+					<script>
+					googletag.cmd.push(function() { 
+						googletag.display('div-gpt-ad-1488508262590-a'); 
+					});
+					</script>
+					</div>				</div>
+								<!-- /1007060/dcfeer_home_outofpage -->
+				<div id='div-gpt-ad-1488508262590-2'>
+				<script>
+				googletag.cmd.push(function() { 
+					googletag.display('div-gpt-ad-1488508262590-2'); 
+				});
+				</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="container">
+		<div class="row">
+			<div style="padding: 10px 10px 10px 10px; height: auto; margin-left:auto; margin-right: auto;" id="ros_super_banner" class="desktop_gutter visible-md visible-lg">
+				<div style="margin-left: auto; margin-right: auto; text-align: center;">
+				<!-- /1007060/dcfever_home/dcfever_home_top -->
+				<div id='div-gpt-ad-1488508262590-1'>
+				<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1488508262590-1'); });
+				</script>
+				</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Main Page Latest News -->
+		<div class="row">
+			<div class="section_header">
+				最新消息
+				<div class="more">
+					<a href="/news/index.php">more<i class="fa fa-angle-double-right"></i></a>
+				</div>
+			</div>
+			<div class="col-md-left col-lg-left">
+				<div class="article_block">
+							<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29024">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/10/29024_1601864274_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29024">
+					csl. 5G 月內打通 6 條港鐵線：車廂之內都用到				</a>
+			</span>
+			<span class="date">
+				24 分鐘前							</span>
+			<span class="introduction">
+				今年啟用的商用 5G 網絡還在起初階段，對於 5G 網絡的鋪設，相信大家都會十分關心，最近香港電訊就宣佈，將會在 10 月內將 5G 網絡覆蓋到主要 6 條...				<a href="/news/readnews.php?id=29024">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29023">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/10/29023_1601812743_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29023">
+					Samsung Galaxy S21 傳加入 S-Pen，Note 系列會停產？				</a>
+			</span>
+			<span class="date">
+				11 小時前							</span>
+			<span class="introduction">
+				Samsung 多年以來，旗艦機 Galaxy S 系列與 Galaxy Note 系列分工非常清晰，前者以外型及拍攝行先，後者則有壓力感應觸控筆 S-Pen，方便用家記事，...				<a href="/news/readnews.php?id=29023">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29022">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/10/29022_1601798187_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29022">
+					Canon EOS M50 II 擬年底登場，4K Crop 或成歷史！				</a>
+			</span>
+			<span class="date">
+				19 小時前							</span>
+			<span class="introduction">
+				Canon EOS M50 在 2018 年初登場，雖然此機的定位較為入門，拍 4K 片又有裁剪，但是 M50 加入側反式自拍屏幕，加上又可以外接收音咪，配合現時約四...				<a href="/news/readnews.php?id=29022">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=28874">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/28874_1600143484_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=28874">
+					Dyson Digital Slim 輕量無線吸塵大神試玩				</a>
+			</span>
+			<span class="date">
+				23 小時前							</span>
+			<span class="introduction">
+				Dyson 無線吸塵機有幾好用，相信都不用多說，不過一直以來，它的體積都比同類型產品偏大，對於香港一般小家庭使用，都會覺得有點佔用了空間。今次 ...				<a href="/news/readnews.php?id=28874">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29010">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/10/29010_1601712981_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29010">
+					高保護模組式：Xcube 硬殼相機背包眾籌中				</a>
+			</span>
+			<span class="date">
+				1 日前							</span>
+			<span class="introduction">
+				相機背包有幾個重點，就是保護性、容量、外形和舒適度。當中很多人最看重就其中一個重點就是保護性，畢竟裡面放的器材都價值不菲，一定要好好保護。...				<a href="/news/readnews.php?id=29010">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=28981">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/28981_1601281199_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=28981">
+					【鋒加西亞 - 德國工作假期後的世界流浪】沙田行去慈雲山，原來超級簡單【香港郊遊005】				</a>
+			</span>
+			<span class="date">
+				1 日前							</span>
+			<span class="introduction">
+				由沙田行去九龍的「慈沙古道」，我細細個就聽過呢個名~
+
+其實仲行過tim，不過係廿幾年前6歲果陣，記得當時係非常不情願地比阿爸捉去，覺得條路又...				<a href="/news/readnews.php?id=28981">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=28834">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/28834_1599624472_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=28834">
+					B&amp;O Beoplay E8 Sport：音質最出色的 TWS				</a>
+			</span>
+			<span class="date">
+				1 日前							</span>
+			<span class="introduction">
+				Bang &amp; Olufsen (B&amp;O) 推出了真無線耳機 Beoplay E8 已有幾年時間，當中都有推出不少變演版本，近日推出的 Beoplay E8 Sport 試玩後，大家可以完全...				<a href="/news/readnews.php?id=28834">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29001">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/29001_1601389058_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29001">
+					小米曲面遊戲屏幕試玩				</a>
+			</span>
+			<span class="date">
+				2 日前							</span>
+			<span class="introduction">
+				近年不少中國的手機品牌，都擴展了其業務，建立一個屬於自己品牌的智能生態圈。小米在這方面已早著先機，更積極力推出不少與手機及電腦的關聯產品，...				<a href="/news/readnews.php?id=29001">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29018">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/10/29018_1601621179_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29018">
+					【塵埃落定】原 Olympus 影像部門主管掌 OM Digital 帥印，有望穩定軍心！				</a>
+			</span>
+			<span class="date">
+				2 日前							</span>
+			<span class="introduction">
+				Olympus 影像部門的命運終於揭盅，隨著 Olympus 與「日本產業夥伴」（Japan Industrial Partners, Inc.；簡稱：JIP）JIP 在剛過去的 9 月 30 日達成...				<a href="/news/readnews.php?id=29018">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=28898">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/28898_1600276663_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=28898">
+					SmarTone 5G 家用寬頻實試：免約安裝極速上網				</a>
+			</span>
+			<span class="date">
+				3 日前							</span>
+			<span class="introduction">
+				家用寬頻市場主要流行以光纖或電話線連接 Model 再駁 Router 以 Lan 線或以 WiFi 無線連接裝置上網。一般大型屋苑拉線都沒有問題，但住在樓齡較大的...				<a href="/news/readnews.php?id=28898">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=28980">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/28980_1601280182_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=28980">
+					【Moments by LCK 專欄】旅程回帶｜2013年｜荷蘭．德國｜夏				</a>
+			</span>
+			<span class="date">
+				3 日前							</span>
+			<span class="introduction">
+				從紐西蘭及澳洲的時候就覺得自己需要一顆大光圈標準鏡頭，所以經過一番網上爬文後，一回到香港就入手了Sigma 30mm f/1.4 EX DC HSM (下稱S30.4)。C...				<a href="/news/readnews.php?id=28980">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29020">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/10/29020_1601535131_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29020">
+					【勇者無懼】司機磨機出走「第一城」　網民：罰錢變刑毀！				</a>
+			</span>
+			<span class="date">
+				3 日前							</span>
+			<span class="introduction">
+				聞名全港第一快手的鎖城之城 - 沙田第一城，近日出現一宗「老貓燒鬚」事件，有司機被城內「F1 團隊」鎖車之後，自行用「磨機」切割鎖車鎖，還成功逃...				<a href="/news/readnews.php?id=29020">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29014">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/29014_1601464441_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29014">
+					小米 Mi 10T Pro 率先試玩：兩大部份有所進化				</a>
+			</span>
+			<span class="date">
+				3 日前							</span>
+			<span class="introduction">
+				昨日發表的小米 10T 系列手機，當中小米 10T Pro 已經抵港率先供傳媒拍攝，據說此機更會於 10 月或至 11 月頭在港推出。				<a href="/news/readnews.php?id=29014">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29019">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/10/29019_1601520217_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29019">
+					Google Pixel 5 連同 Pixel 4a 5G 登場：可以稱為 5G 旗艦款？				</a>
+			</span>
+			<span class="date">
+				4 日前							</span>
+			<span class="introduction">
+				Google 果然不會對中國市場作針對性部署，在中國國慶日突襲推出 Google Pixel 5 及 Pixel 4a 5G 兩款 5G 新機，兩機均只是採用 Snapdragon 765G，都...				<a href="/news/readnews.php?id=29019">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=28973">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/28973_1601218191_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=28973">
+					Huawei Mate 40 最終產能低於 6 成：發佈日亦同時曝光				</a>
+			</span>
+			<span class="date">
+				4 日前							</span>
+			<span class="introduction">
+				受到美國禁令影響，Huawei 需要在 9 月中的死線趕及生產 Kirin 9000 晶片，供 Huawei 下半年度旗艦機 Mate 40 系列備用。由於有傳整個 Mate 40 系列...				<a href="/news/readnews.php?id=28973">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29017">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/29017_1601476158_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29017">
+					小米 Mi 10T 系列登場：全新技術兼有防疫機套				</a>
+			</span>
+			<span class="date">
+				4 日前							</span>
+			<span class="introduction">
+				小米可以說是在新冠肺炎下疫情影響最少的品牌之一，依然採用機海戰術的它，在國際市場公佈全新 Mi 10T 系列。				<a href="/news/readnews.php?id=29017">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29015">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/29015_1601466553_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29015">
+					【有片】神人拍片教自製紙板「Tesla Cybertruck」　可遙控尾板還可升起				</a>
+			</span>
+			<span class="date">
+				4 日前							</span>
+			<span class="introduction">
+				美國電動車品牌旗下的 Tesla Cybertruck 來港無期，但如果你對這款車型情有獨鍾的話，不防學學這個外國「神人」，以紙皮自製模型，都可叫做「止止渴...				<a href="/news/readnews.php?id=29015">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=28993">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/28993_1601354285_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=28993">
+					全能 E-Mount 新百微︰搶先試用 Sigma 105mm F2.8 DG DN Macro | Art				</a>
+			</span>
+			<span class="date">
+				4 日前							</span>
+			<span class="introduction">
+				Sony 自家的全片幅 E-Mount 微距鏡 FE 90mm F2.8 Macro G OSS 推出已有 5 年，早前已有 Tokina FiRIN 100mm f/2.8 FE Macro 湊熱鬧，加起來已有 2 ...				<a href="/news/readnews.php?id=28993">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29013">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/29013_1601464350_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29013">
+					McLaren 765LT 全球限量 765 部！0 &ndash; 400 米加 9.9 完成！				</a>
+			</span>
+			<span class="date">
+				4 日前							</span>
+			<span class="introduction">
+				雖然近月有關 McLaren 的不利消息恆河沙數，但廠方並沒有因此氣餒，日前還宣布 765LT 車型的生產工作從新開始，限量生產 765 部！				<a href="/news/readnews.php?id=29013">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+			<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=28890">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/28890_1601449615_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=28890">
+					抗疫攝影新常態！最強在家拍攝強配件推介				</a>
+			</span>
+			<span class="date">
+				4 日前							</span>
+			<span class="introduction">
+				疫情期間，大家減少外出旅遊和影相，多了時間留在家中，不知會否感到手中器材都變得「無用武之地」呢？今次我們找了 Sue Mak 為大家示範以不同器材...				<a href="/news/readnews.php?id=28890">(繼續閱讀)</a>
+			</span>
+		</div>
+	</div>
+					</div>
+				<div class="mainpage_load_more clearfix">
+					<a href="/news/index.php?page=2" style="display: inline-block; padding: 8px 0px 8px 0px; font-size: 15px; width: 180px; float: right; margin-right: 40px;background-color: #ff8800; color: #fff; border-radius: 5px;">更多消息...</a>
+				</div>
+			</div>
+			<div class="col-md-right col-lg-right">
+				<div style="margin-bottom: 0px; display: block; text-align: center;">
+					<!-- /1007060/HomePage_300x250 -->
+					<div id='div-gpt-ad-1488508262590-0'>
+					<script>
+					googletag.cmd.push(function() { googletag.display('div-gpt-ad-1488508262590-0'); });
+					</script>
+					</div>
+					<div style="width: 300px;margin-left: auto; margin-right: auto;">
+										</div>
+				</div>
+
+				<!-- Other News -->
+				<div class="row">
+					<div class="section_header">
+						精選文章
+						<span class="more">
+							<a href="/news/index.php">more<i class="fa fa-angle-double-right"></i></a>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">					
+						<div class="article_block narrow">
+	<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=28890">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/28890_1601449615_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=28890">
+					抗疫攝影新常態！最強在家拍攝強配件推介				</a>
+			</span>
+		</div>
+	</div>
+	<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29012">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/29012_1601460028_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29012">
+					擠牙膏式放料：Fujifilm X-S10 最新流出內容				</a>
+			</span>
+		</div>
+	</div>
+	<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=28988">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/28988_1601313073_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=28988">
+					Samsung Galaxy Z Fold 2 測試：摺屏幕有新玩法				</a>
+			</span>
+		</div>
+	</div>
+	<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=28994">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/28994_1601433305_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=28994">
+					高性價比直播恩物：Atomos Connect 專業影像擷取器				</a>
+			</span>
+		</div>
+	</div>
+	<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29000">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/29000_1601386251_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29000">
+					Samsung Galaxy Note 20 獨門 UWB 技術或成將來手機標準				</a>
+			</span>
+		</div>
+	</div>
+	<div class="article_div clearfix">
+		<div class="image_col">
+			<a href="/news/readnews.php?id=29002">
+				<img src="https://cdn01.dcfever.com/articles/news/2020/09/29002_1601390358_icon.jpg">
+			</a>
+		</div>
+		<div class="content_col">
+			<span class="title">
+				<a href="/news/readnews.php?id=29002">
+					10 月 14 日正式公布：Nikon 同時推出 Z6 II 及 Z7 II 全片幅無反				</a>
+			</span>
+		</div>
+	</div>
+					
+						</div>
+					</div>
+				</div>
+
+				<!-- shop@dcfever promotion -->
+				<div class="row">
+					<div class="section_header">
+						shop@dcfever 特賣
+						<div class="more">
+							<a href="/shop/">more<i class="fa fa-angle-double-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="mainpage_shop_promo clear">
+					<!-- shop@dcfever promotion Main Page -->
+<!-- cache time 2020-10-05 11:24:49 -->
+<div class="mainpage_shop_promo_entry clear"><div class="image"><a href="/shop/viewpromotion.php?id=2477&url=https%3A%2F%2Fonlinestore.dcfever.com%2Fproducts%2Fsony-a7c"><img src="https://cdn01.dcfever.com/media/shop/2020/09/6985_1_1600159491.jpg" style="width: 100%;"></a></div><div class="content"><a href="/shop/viewpromotion.php?id=2477&url=https%3A%2F%2Fonlinestore.dcfever.com%2Fproducts%2Fsony-a7c">最新 SONY A7C 預售中!!<BR> 全球最輕巧全片幅無反組合<BR<br>頂級對焦 5軸5級機身防震<BR>側揭式反Mon 邊拍邊充電<br><span class="price">預售送64GB卡 10月上旬到貨</span></a></div></div><div class="mainpage_shop_promo_entry clear"><div class="image"><a href="/shop/viewpromotion.php?id=2451&url=https%3A%2F%2Fonlinestore.dcfever.com%2Fproducts%2Fcanon-eos-r5"><img src="https://cdn01.dcfever.com/media/shop/2020/07/6927_1_1594892231.jpg" style="width: 100%;"></a></div><div class="content"><a href="/shop/viewpromotion.php?id=2451&url=https%3A%2F%2Fonlinestore.dcfever.com%2Fproducts%2Fcanon-eos-r5">Canon EOS R5 連 24-105套裝<br>日本製 8K 全片幅 4,500萬像素 <BR>高達8級防震 動物偵測自動對焦<br><span class="price">火速熱賣 少量現貨供應</span></a></div></div><div class="mainpage_shop_promo_entry clear"><div class="image"><a href="/shop/viewpromotion.php?id=2478&url=https%3A%2F%2Fonlinestore.dcfever.com%2Fproducts%2Fnikon-z-5"><img src="https://cdn01.dcfever.com/media/shop/2020/08/6946_1_1597298290.jpg" style="width: 100%;"></a></div><div class="content"><a href="/shop/viewpromotion.php?id=2478&url=https%3A%2F%2Fonlinestore.dcfever.com%2Fproducts%2Fnikon-z-5">全片幅Nikon Z 5 + 24-50mm餅鏡<br>5軸5級防震 支援USB邊充電邊拍<BR>進階人眼/動物眼AF 369萬點EVF<br><span class="price">首發尊享優惠 送FTZ接環配接器</span></a></div></div><div class="mainpage_shop_promo_entry clear"><div class="image"><a href="/shop/viewpromotion.php?id=2479&url=https%3A%2F%2Fonlinestore.dcfever.com%2Fproducts%2Fgopro-hero7-black-special-bundle%3Futm_medium%3Ddcfever%26utm_source%3Dproduct_info"><img src="https://cdn01.dcfever.com/media/shop/2020/05/6920_1_1590741311.jpg" style="width: 100%;"></a></div><div class="content"><a href="/shop/viewpromotion.php?id=2479&url=https%3A%2F%2Fonlinestore.dcfever.com%2Fproducts%2Fgopro-hero7-black-special-bundle%3Futm_medium%3Ddcfever%26utm_source%3Dproduct_info">GoPro HERO7 Black 套裝<br>超抵玩創意好拍檔 新手之選<BR>送總值 $700 超實用配件<br><span class="price">買一送五全包價 $2,490</span></a></div></div>				</div>
+
+				<!-- Photosharing -->
+				<div class="row">
+					<div class="section_header">
+						近日今天之選
+						<span class="more">
+							<a href="/photosharing/">more<i class="fa fa-angle-double-right"></i></a>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="desktop_margin">
+					<div class="flexslider">
+						<ul class="slides mainpage_photos">
+						<li><a href="/photosharing/view.php?id=1638729"><img src="//cdn01.dcfever.com/media/sharing/highlight/2020/10/20201005_1638729_square.jpg" style="width: 100%;"></a><div class="caption">亮灰蝶<div class="user">by <a href="/photosharing/viewuser.php?id=412191">jetmanzz</a></div></div></li>
+<li><a href="/photosharing/view.php?id=1638662"><img src="//cdn01.dcfever.com/media/sharing/highlight/2020/10/20201004_1638662_square.jpg" style="width: 100%;"></a><div class="caption">幻彩詠香江<div class="user">by <a href="/photosharing/viewuser.php?id=560315">kkleungken</a></div></div></li>
+<li><a href="/photosharing/view.php?id=1638612"><img src="//cdn01.dcfever.com/media/sharing/highlight/2020/10/20201003_1638612_square.jpg" style="width: 100%;"></a><div class="caption">小翠<div class="user">by <a href="/photosharing/viewuser.php?id=241461">philip072</a></div></div></li>
+<li><a href="/photosharing/view.php?id=1638559"><img src="//cdn01.dcfever.com/media/sharing/highlight/2020/10/20201002_1638559_square.jpg" style="width: 100%;"></a><div class="caption">山道<div class="user">by <a href="/photosharing/viewuser.php?id=756417">kentuse</a></div></div></li>
+<li><a href="/photosharing/view.php?id=1638517"><img src="//cdn01.dcfever.com/media/sharing/highlight/2020/10/20201001_1638517_square.jpg" style="width: 100%;"></a><div class="caption">平澄如鏡<div class="user">by <a href="/photosharing/viewuser.php?id=481392">JackywhWong</a></div></div></li>
+<li><a href="/photosharing/view.php?id=1638467"><img src="//cdn01.dcfever.com/media/sharing/highlight/2020/09/20200930_1638467_square.jpg" style="width: 100%;"></a><div class="caption">緣份的捕捉-141<div class="user">by <a href="/photosharing/viewuser.php?id=652542">wkc185</a></div></div></li>
+<li><a href="/photosharing/view.php?id=1638450"><img src="//cdn01.dcfever.com/media/sharing/highlight/2020/09/20200929_1638450_square.jpg" style="width: 100%;"></a><div class="caption">日落龍鼓灘 <div class="user">by <a href="/photosharing/viewuser.php?id=433142">zaigor</a></div></div></li>
+				
+						</ul>
+					</div>
+					</div>
+				</div>
+				<script language="javascript">
+					$('.flexslider').flexslider({
+						animation: "slide",
+						directionNav: false,
+						slideshow: false,
+						animationLoop: false					
+					});
+				</script>
+
+				<!-- Hot gadgets -->
+				<div class="row">
+					<div class="section_header">
+						熱門相機手機
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mainpage_hot_gadget_block clearfix">
+															<div class="mainpage_hot_gadget">
+									<div class="image_col"><a href="http://www.dcfever.com/phones/specification.php?id=2839"><img src="https://cdn01.dcfever.com/media/products/images/2020/09/19656_1599638810.jpg"></a></div>
+									<div class="content_col"><a href="http://www.dcfever.com/phones/specification.php?id=2839" class="title">Samsung Galaxy Z Fold 2 5G</a></div>
+								</div>
+															<div class="mainpage_hot_gadget">
+									<div class="image_col"><a href="http://www.dcfever.com/cameras/specification.php?id=2378"><img src="https://cdn01.dcfever.com/media/products/images/2020/07/19615_1594326738.jpg"></a></div>
+									<div class="content_col"><a href="http://www.dcfever.com/cameras/specification.php?id=2378" class="title">Canon EOS R6</a></div>
+								</div>
+															<div class="mainpage_hot_gadget">
+									<div class="image_col"><a href="http://www.dcfever.com/cameras/specification.php?id=2373"><img src="https://cdn01.dcfever.com/media/products/images/2020/02/19527_1582699742.jpg"></a></div>
+									<div class="content_col"><a href="http://www.dcfever.com/cameras/specification.php?id=2373" class="title">Fujifilm X-T4</a></div>
+								</div>
+							<div class="col-md-12 clearfix"></div>								<div class="mainpage_hot_gadget">
+									<div class="image_col"><a href="http://www.dcfever.com/cameras/specification.php?id=2380"><img src="https://cdn01.dcfever.com/media/products/images/2020/07/19626_1595345402.jpg"></a></div>
+									<div class="content_col"><a href="http://www.dcfever.com/cameras/specification.php?id=2380" class="title">Nikon Z5</a></div>
+								</div>
+															<div class="mainpage_hot_gadget">
+									<div class="image_col"><a href="http://www.dcfever.com/cameras/specification.php?id=2285"><img src="https://cdn01.dcfever.com/media/products/images/2018/02/18787_1519698264.jpg"></a></div>
+									<div class="content_col"><a href="http://www.dcfever.com/cameras/specification.php?id=2285" class="title">Sony A7 III</a></div>
+								</div>
+															<div class="mainpage_hot_gadget">
+									<div class="image_col"><a href="http://www.dcfever.com/lens/specification.php?id=1286"><img src="https://cdn01.dcfever.com/media/products/images/2020/06/19584_1591954376.jpg"></a></div>
+									<div class="content_col"><a href="http://www.dcfever.com/lens/specification.php?id=1286" class="title">Tamron 28-200mm f/2.8-5.6 Di III RXD (Model A071)</a></div>
+								</div>
+													</div>
+					</div>
+				</div>
+
+				<!-- Fever Model -->
+				<div class="row">
+					<div class="section_header">
+						Model 推介
+					</div>
+				</div>
+				<div class="row">
+	<div class="col-xs-6 col-sm-3 col-md-6">
+		<div class="mainpage_model_promotion">
+			<div class="image_col">
+				<a href="/models/viewpromotion.php?id=1744"><img src="https://cdn01.dcfever.com/media/models/featured/2020/04/3284_1744_1585793412_promotion.jpg"></a>
+			</div>
+			<div class="name_col">
+				<a href="/models/viewpromotion.php?id=1744">Yuzu Wong</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-sm-3 col-md-6">
+		<div class="mainpage_model_promotion">
+			<div class="image_col">
+				<a href="/models/viewpromotion.php?id=1529"><img src="https://cdn01.dcfever.com/media/models/featured/2020/07/3114_1529_1594199442_promotion.jpg"></a>
+			</div>
+			<div class="name_col">
+				<a href="/models/viewpromotion.php?id=1529">Colanda</a>
+			</div>
+		</div>
+	</div>
+<div class="col-md-12 clearfix"></div>	<div class="col-xs-6 col-sm-3 col-md-6">
+		<div class="mainpage_model_promotion">
+			<div class="image_col">
+				<a href="https://www.dcfever.com/photosharing/view.php?id=1636699"><img src="https://cdn01.dcfever.com/media/models/featured/2020/09/2783_small_image.jpg"></a>
+			</div>
+			<div class="name_col">
+				<a href="https://www.dcfever.com/photosharing/view.php?id=1636699">法國的情人.2</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-sm-3 col-md-6">
+		<div class="mainpage_model_promotion">
+			<div class="image_col">
+				<a href="https://www.dcfever.com/photosharing/view.php?id=1635639"><img src="https://cdn01.dcfever.com/media/models/featured/2020/09/2772_small_image.jpg"></a>
+			</div>
+			<div class="name_col">
+				<a href="https://www.dcfever.com/photosharing/view.php?id=1635639">中國文化</a>
+			</div>
+		</div>
+	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid super_banner_box" style="padding: 0px; padding-top: 30px; background-color: #f9f9f9; border-top: solid 1px #eee; text-align: center">
+		<!-- /1007060/dcfever_home/dcfever_home_bottom -->
+		<div id='div-gpt-ad-1488508262590-99'>
+		<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1488508262590-99'); });
+		</script>
+		</div>
+	</div>
+
+	<div class="container-fluid index_trading" style="margin-top: 0px;">
+		<div class="inner">
+			<div class="row">
+				<div class="col-md-7">
+
+
+					<!-- Trading -->
+					<div class="trade_selection_div">
+						<ul class="trading_selection">
+							<li class="option selected">
+								<a href="#" class="trading_hotlist" id="box_41"><div class="visible-md-inline visible-lg-inline">熱門</div>攝影</a>
+							</li>
+							<li class="option">
+								<a href="#" class="trading_hotlist" id="box_42">手機</a>
+							</li>
+							<li class="option">
+								<a href="#" class="trading_hotlist" id="box_43">電腦</a>
+							</li>
+							<li class="option">
+								<a href="#" class="trading_hotlist" id="box_44">手錶</a>
+							</li>
+							<li class="option">
+								<a href="#" class="trading_hotlist" id="box_45">影音</a>
+							</li>
+							<li class="option">
+								<a href="#" class="trading_hotlist" id="box_46">潮流</a>
+							</li>
+						</ul>
+					</div>
+
+					<ul class="row mainpage_tradelist" id="box_4">
+				<li><a href="/trading/view.php?itemID=8498696" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_1'); return false;"><span class="item">小心騙子Cody Chan</span><span class="price">HK$1</span></a></li><li><a href="/trading/view.php?itemID=8498083" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_2'); return false;"><span class="item">Nikon z 24-70mm f2.8 s for z6 z7 z50 z5</span><span class="price">HK$12,800</span></a></li><li><a href="/trading/view.php?itemID=8498228" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_3'); return false;"><span class="item">nikon afs 200 2一代</span><span class="price">HK$13,800</span></a></li><li><a href="/trading/view.php?itemID=8497534" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_4'); return false;"><span class="item">Leica X [Typ113] 95%new full set</span><span class="price">HK$6,200</span></a></li><li><a href="/trading/view.php?itemID=8497706" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_5'); return false;"><span class="item">(免費FREE) Ikan Pivot gimbal 雲台穩定器</span><span class="price">HK$0</span></a></li><li><a href="/trading/view.php?itemID=8498414" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_6'); return false;"><span class="item">Fujinon XF23 f2 碳晶灰 特別版 graphite edition Fujifilm</span><span class="price">HK$2,200</span></a></li><li><a href="/trading/view.php?itemID=8497435" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_7'); return false;"><span class="item">FujiFilm X-T10</span><span class="price">HK$1,200</span></a></li><li><a href="/trading/view.php?itemID=8498039" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_8'); return false;"><span class="item">Fujifilm xf 35mm f1.4 + XE1 black body</span><span class="price">HK$3,000</span></a></li><li><a href="/trading/view.php?itemID=8497715" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_9'); return false;"><span class="item">Sony A7 II</span><span class="price">HK$4,000</span></a></li><li><a href="/trading/view.php?itemID=8497492" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_10'); return false;"><span class="item">Pentax sp 黑</span><span class="price">HK$450</span></a></li><div class="visible-md visible-lg"><li><a href="/trading/view.php?itemID=8497927" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_11'); return false;"><span class="item">Olympus Zuiko OM lenses</span><span class="price">HK$600</span></a></li></div><div class="visible-md visible-lg"><li><a href="/trading/view.php?itemID=8497641" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_12'); return false;"><span class="item">Canon M50半賣半送兩鏡頭尋求好賣家!!留意內文!!送$5xx配件</span><span class="price">HK$2,600</span></a></li></div><div class="visible-md visible-lg"><li><a href="/trading/view.php?itemID=8498044" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_13'); return false;"><span class="item">Pentax KS-2 相機</span><span class="price">HK$1,600</span></a></li></div><div class="visible-md visible-lg"><li><a href="/trading/view.php?itemID=8498831" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_14'); return false;"><span class="item">Sony RX1 35/2 with hood</span><span class="price">HK$3,800</span></a></li></div><div class="visible-md visible-lg"><li><a href="/trading/view.php?itemID=8498465" onclick="trackLink(this, 'MainPage Trading Item', 'Click', 'box_41_15'); return false;"><span class="item">Canon EF 24-70mm F/4L</span><span class="price">HK$2,000</span></a></li></div>					</ul>			
+
+					<div class="row">
+						<div class="mainpage_load_more trading">
+							<a href="/index.php">更多買賣物品</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1 visible-md visible-lg">&nbsp;</div>
+				<div class="col-md-4 visible-md visible-lg">
+					<div class="row">
+	<div class="section_header">
+		二手熱門搜尋
+		<div class="more" style="display: none;">
+			<a href="destination.php">more<i class="fa fa-angle-double-right"></i></a>
+		</div>
+	</div>
+</div>
+<style type="text/css">
+/* mp trading search */
+.mp_trading_search {
+	font-size: 15px;
+	width: 100%
+}
+.mp_trading_search hr.seperator {
+	visibility: hidden; height: 1px; margin: 0px; padding: 0px;
+}
+.mp_trading_search .search_block {
+	margin-bottom: 0px; width: 50%; float: left;
+}
+.mp_trading_search .search_block a.title {
+	font-size: 15px;
+	color: #555;
+}
+.mp_trading_search .search_block a.title:hover {
+	color: #ff6600;
+}
+.mp_trading_search .search_block ul.search_list {
+	list-style: square;
+	margin-left: 0px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.mp_trading_search .search_block ul.search_list li {
+	line-height: 1.4em;
+}
+.mp_trading_search .search_block ul.search_list li a {
+	color: #666;
+	font-size: 13px;
+}
+.mp_trading_search .search_block ul.search_list li a:hover {
+	color: #ff6600;
+}
+.mp_trading_search .search_block .camera {
+	padding: 0px 28px; font-size: 15px; margin-bottom: 10px;
+	background-image: url('//cdn01.dcfever.com/images/icons_mainpage.png'); background-position: 0px 1px; margin-bottom: 5px; width: 120px; line-height: 23px; background-repeat: none;
+}
+.mp_trading_search .search_block .lens {
+	padding: 0px 28px; font-size: 15px; margin-bottom: 5px;background-image: url('//cdn01.dcfever.com/images/icons_mainpage.png'); background-position: 0px -78px; font-size: 15x; margin-bottom: 5px; width: 120px; line-height: 23px; background-repeat: none;
+}
+.mp_trading_search .search_block .phone {
+	padding: 0px 28px; font-size: 15px; margin-bottom: 5px;background-image: url('//cdn01.dcfever.com/images/icons_mainpage.png'); background-position: 0px -39px;font-size: 15px; margin-bottom: 5px; width: 120px;line-height: 23px; background-repeat: none;
+}
+.mp_trading_search .search_block .tablet {
+	padding: 0px 28px; font-size: 15px; margin-bottom: 5px;background-image: url('//cdn01.dcfever.com/images/icons_mainpage.png'); background-position: 0px -119px; font-size: 15x; margin-bottom: 5px; width: 120px; line-height: 23px; background-repeat: none;
+}
+.mp_trading_search .search_block .earphone {
+	padding: 0px 28px; font-size: 15px; margin-bottom: 5px;background-image: url('//cdn01.dcfever.com/images/icons_mainpage.png'); background-position: 0px -436px; font-size: 15x; margin-bottom: 5px; width: 120px; line-height: 23px; background-repeat: none;
+}
+.mp_trading_search .search_block .watches {
+	padding: 0px 28px; font-size: 15px; margin-bottom: 5px;background-image: url('//cdn01.dcfever.com/images/icons_mainpage.png'); background-position: 0px -399px; font-size: 15x; margin-bottom: 5px; width: 120px; line-height: 23px; background-repeat: none;	
+}
+.mp_trading_search .search_block .bikes {
+	padding: 0px 28px; font-size: 15px; margin-bottom: 5px;background-image: url('//cdn01.dcfever.com/images/icons_mainpage.png'); background-position: 0px -518px; font-size: 15x; margin-bottom: 5px; width: 120px; line-height: 23px; background-repeat: none;	
+}
+.mp_trading_search .search_block .cars {
+	padding: 0px 28px; font-size: 15px; margin-bottom: 5px;background-image: url('//cdn01.dcfever.com/images/icons_mainpage.png'); background-position: 0px -560px; font-size: 15x; margin-bottom: 5px; width: 120px; line-height: 23px; background-repeat: none;	
+}
+.mp_trading_search .search_block .speakers {
+	padding: 0px 28px; font-size: 15px; margin-bottom: 5px;background-image: url('//cdn01.dcfever.com/images/icons_mainpage.png'); background-position: 0px -598px; font-size: 15x; margin-bottom: 5px; width: 120px; line-height: 23px; background-repeat: none;	
+}
+</style>
+					<div class="mp_trading_search">
+							<div class="search_block">
+								<a href="/trading/listing.php?category=6" class="title"><div class="camera">相機 </div></a>
+								<ul class="search_list">
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=5d Mark III">5d Mark III</a></li>
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=Sony NEX 7">Sony NEX 7</a></li>
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=Canon 650D">Canon 650D</a></li>
+								</ul>
+							</div>
+							<div class="search_block">
+								<a href="/trading/listing.php?category=8" class="title"><div class="lens">鏡頭 </div></a>
+								<ul class="search_list">
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=70-200">70-200</a></li>
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=canon 17-40">canon 17-40</a></li>
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=24-70">24-70</a></li>
+								</ul>
+							</div>
+							
+							<hr class="seperator">
+
+							<div class="search_block">
+								<a href="/trading/listing.php?category=3" class="title"><div class="phone">手機 </div></a>
+								<ul class="search_list">
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=iPhone x">iPhone x</a></li>
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=iPhone 8">iPhone 8</a></li>
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=Galaxy S8">Galaxy S8</a></li>
+								</ul>
+							</div>
+							<div class="search_block">
+								<a href="/trading/listing.php?category=59" class="title"><div class="watches">手錶 </div></a>
+								<ul class="search_list">
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=Rolex">Rolex</a></li>
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=IWC">IWC</a></li>
+								<li><a href="//www.dcfever.com/trading/search.php?form_action=search_action&keyword=Panerai">Panerai</a></li>
+								</ul>
+							</div>
+
+							<hr class="seperator">
+							<div class="search_block">
+								<a href="/trading/listing.php?category=76" class="title"><div class="tablet">Tablet </div></a>
+							</div>
+
+							<div class="search_block">
+								<a href="/trading/listing.php?category=87" class="title"><div class="earphone">耳機 </div></a>
+							</div>
+							<hr class="seperator">
+
+							<div class="search_block">
+								<a href="/trading/listing.php?category=77" class="title"><div class="bikes">單車 </div></a>
+							</div>
+							<div class="search_block">
+								<a href="/trading/listing.php?category=53" class="title"><div class="speakers">楊聲器 </div></a>
+							</div>
+					</div>					</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mainpage_load_more visible-xs" style="margin-bottom: 0px;">
+		<a href="#" id="back_to_top">Back to top</a>
+	</div>
+
+<script language="javascript">
+$(document).ready(function() {
+	$(".toggle_desktop_search").click(function(e) {
+		e.preventDefault();
+		$(this).hide();
+		$(this).parent().toggleClass("active");
+		$("form[name=desktop_search_news] input[name=keyword]").focus();
+	});
+
+	$(".toggle_mobile_search_box, .close_searchbox").click(function(e) {
+		e.preventDefault();
+		$(".mobile_search_box").toggle();
+		$(".mobile_search_box input[name=keyword]").focus();
+	});
+
+	$(".submit_desktop_search").click(function(e) {
+		e.preventDefault();
+		$(this).parent().submit();
+	});
+
+	$("form[name=mobile_search_news], form[name=desktop_search_news]").submit(function() {
+		if ($(this).find("input[name=keyword]").val() == '') {
+			alert("請輸入搜尋字句"); 
+			return false;
+		} else {
+			return true;
+		}
+	});
+
+
+	$(window).scroll(function() {
+		if (!$(".off_canvas").hasClass("offed")) {
+			var scrollPos = $(window).scrollTop();
+			if (scrollPos >= navOffset) {
+				$(".nav_level_two_wrapper").addClass("fixed");
+			} else {
+				$(".nav_level_two_wrapper").removeClass("fixed");
+			}
+		}
+	});
+	var navOffset = $(".nav_level_two_wrapper").offset().top;
+	$(".nav_level_two_wrapper").wrap('<div class="nav_placeholder"></div>');
+	$(".nav_placeholder").height($(".nav_level_two_wrapper").outerHeight());
+
+	$(".toggle_verytop_nav").click(function(e) {
+		e.preventDefault();
+		$(".verytop_nav_expandable").toggleClass("visible_all_screen");
+	});
+	$(".toggle_off_canvas").click(function(e) {
+		e.preventDefault();
+
+		$(".off_canvas").addClass("offed");
+		$(".canvas_overlay_mask").show();
+		$(".nav_level_two_wrapper").removeClass("fixed");
+		$(".expandable").hide();
+
+		tidyup_off_canvas();
+	});
+	$(".toggle_side_nav_expandable").click(function(e) {
+		e.preventDefault();
+		$(this).siblings(".mobile_expandable_div").toggleClass("visible-md");
+		$(this).siblings(".mobile_expandable_div").toggleClass("visible-lg");
+		$(this).toggleClass("bold");
+
+		tidyup_off_canvas();
+	});
+	$(".canvas_overlay_mask, .close_off_canvas").click(function(e) {
+		e.preventDefault();
+		close_off_canvas();
+	});
+
+	$(".toggle_nav_level_two").click(function(e) {
+		e.preventDefault();
+		$(this).siblings(".expandable").slideToggle(100, function() {
+		});
+	});
+	$(".set_desktop_version").click(function(e) {
+		//e.preventDefault();
+		createCookie('force_desktop_ver', true, 1);
+	});
+	$(".cancel_desktop_version").click(function(e) {
+		//e.preventDefault();
+		eraseCookie('force_desktop_ver');
+	});
+
+
+	/* fullscreen overlay */
+	$(".toggle_fullscreen_menu").click(function(e) {
+		e.preventDefault();
+
+		$(".toggle_nav_level_two").siblings(".expandable").hide();
+
+		$(".fullscreen_menu").show();
+		var fullscreen_menu_height = $(".fullscreen_menu").height();
+		var window_height = $(window).height();
+
+		if (window_height > fullscreen_menu_height + 120)
+		{
+			$(".site_wrapper").height(window_height).css("min-height", window_height);
+			$(".fullscreen_menu").height(window_height);
+		}
+		else
+		{
+			$(".site_wrapper").height(fullscreen_menu_height+120).css("min-height", fullscreen_menu_height+120);
+			$(".fullscreen_menu").height(fullscreen_menu_height+120);
+		}
+
+		window.scrollTo(0,0);
+	});
+	$(".close_fullscreen_menu").click(function(e) {
+		e.preventDefault();
+		$(".site_wrapper").height("").css("min-height", "");
+		$(".fullscreen_menu").height("").css("min-height", "").hide();
+	});
+
+
+
+
+	/* others, this page specific script */
+	$(".trade_selection_div .trading_selection .option > a").click(function(e) {
+		e.preventDefault();
+		$(this).parent().parent().parent().find("li").removeClass("selected");
+		$(this).parent().addClass("selected");
+	});
+	$(".toggle_nav_trading").click(function(e) {
+		e.preventDefault();
+		$("#trading_more_hot").toggle();
+	});
+
+	$("#back_to_top").click(function(e) {
+		e.preventDefault();
+		$("html, body").animate({ scrollTop: 0 }, 'slow', function () {
+	    });
+	});
+
+	$(".trading_hotlist").click(function(e, source) {
+		e.preventDefault();
+		var this_tab = $(this).attr("id");
+		$.get(
+			"/ibf3.php",
+			{ datatype : this_tab , crumb : 1601868289, refresh : 'true'},
+			function(data) {
+				$("#box_4").html(data);
+				if (source != 'auto_select') {
+					var date = new Date();
+					var minutes = 30;
+					date.setTime(date.getTime() + (minutes * 60 * 1000));
+					$.cookie('box_4', this_tab, { expires : date } );
+				}
+			}
+		);
+
+	});
+	if ($.cookie('box_4'))
+	{
+		$(".trading_hotlist[id=" + $.cookie('box_4') + "]").trigger("click", ["auto_select"]);
+	}
+	else
+	{
+		$(".trading_hotlist[id=box_41]").trigger("click", ["auto_select"]);
+	}
+});
+
+
+$(window).on('orientationchange', function() {
+	doOnOrientationChange();
+});
+$(window).on('resize', function() {
+	doOnOrientationChange();
+});
+
+function doOnOrientationChange() {
+	if ($(".off_canvas").hasClass("offed"))
+	{
+		if (parseInt($(window).width()) > 900)
+		{
+			close_off_canvas();
+		}
+		else
+		{
+			tidyup_off_canvas();
+		}
+	}
+}
+function close_off_canvas() {
+	$(".off_canvas").removeClass("offed");
+	$(".canvas_overlay_mask").hide();
+	$(".site_wrapper").height("").css("min-height", "");
+	$(".off_canvas").height("").css("min-height", "");
+}
+function tidyup_off_canvas() {
+	var nav_height = $(".side_nav_content").height();
+	var window_height = $(window).height();
+	var arr = [nav_height, window_height];
+	var max_height = Math.max.apply(Math, arr);
+	
+	$(".site_wrapper").height(max_height+120).css("min-height", max_height+120);
+	$(".off_canvas").height(max_height+120);
+	$(".canvas_overlay_mask").height(max_height+120);
+}
+function trackLink(link, category, action, value) { 
+	try { 
+	//_gaq.push(['_trackEvent', category , action, value]); 
+	ga('send', 'event', category, action, value);
+	} catch(err){}
+	 
+	setTimeout(function() {
+		document.location.href = link.href;
+	}, 100);
+}
+</script>
+<script language="javascript" src="https://cdn01.dcfever.com/js/jquery.cookie.js"></script>	
+	<div class="main_footer">
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4 col-md-2">
+						<div class="footer_column">
+							<h2 class="header">新聞互動</h2>
+							<ul>
+								<li><a href="/news/index.php">新聞中心</a></li>
+								<li><a href="/column/index.php">Fever 達人</a></li>
+								<li><a href="/models/index.php">FeverModel</a></li>
+								<li><a href="/photosharing/index.php">作品發表區</a></li>
+								<li><a href="/forum/index.php">討論區</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<div class="footer_column">
+							<h2 class="header">相機手機</h2>
+							<ul>
+								<li><a href="/cameras/database.php">相機資料館</a></li>
+								<li><a href="/lens/index.php">鏡頭資料館</a></li>
+								<li><a href="/phones/database.php">手機資料館</a></li>
+								<li><a href="/tablets/database.php">平板資料館</a></li>
+								<li><a href="/reviews/index.php">產品用家心得</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<div class="footer_column">
+							<h2 class="header">二手買賣</h2>
+							<ul>
+								<li><a href="/trading/index.php">買賣區首頁</a></li>
+								<li><a href="/trading/listing.php?category=1">攝影產品</a></li>
+								<li><a href="/trading/listing.php?category=3">手機通訊</a></li>
+								<li><a href="/trading/listing.php?category=2">電腦資訊</a></li>
+								<li><a href="/trading/listing.php?category=44">影音家電</a></li>
+								<li><a href="/trading/listing.php?category=45">手錶潮流</a></li>
+								<li><a href="/trading/search.php">搜尋物品</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix visible_mobile"></div>
+					<div class="col-xs-4 col-md-2">
+						<div class="footer_column">
+							<h2 class="header">環球旅遊</h2>
+							<ul>
+								<li><a href="/travel/hongkong.php"><div class="visible_desktop_inline">香港</div>攝影好去處</a></li>
+								<li><a href="/travel/hotdeals.php">旅遊熱賣</a></li>
+								<li><a href="/travel/destination.php">目的地攻略</a></li>
+								<li><a href="/travel/photolist.php">旅遊作品</a></li>
+								<li><a href="/travel/listing.php">達人旅遊分享</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<div class="footer_column">
+							<h2 class="header">shop<span class="visible_desktop_inline">@dcfever</span></h2>
+							<ul>
+								<li><a href="/shop/info.php?type=address">門市資料</a></li>
+								<li><a href="/shop/list.php">最新貨品</a></li>
+								<li><a href="/shop/list.php?cat=1">熱賣相機</a></li>
+								<li><a href="/shop/list.php?cat=2">熱賣鏡頭</a></li>
+								<li><a href="/shop/list.php?cat=73">熱賣 DSLR</a></li>
+								<li><a href="/shop/list.php?cat=170">熱賣 EVIL</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xs-4 col-md-2">
+						<div class="footer_column">
+							<h2 class="header">DCFever</h2>
+							<ul>
+								<li><a href="/documents/aboutus.php">關於我們</a></li>
+								<li><a href="/documents/agreement.php">使用條款</a></li>
+								<li><a href="/documents/privacy.php">私隱條例</a></li>
+								<li><a href="/documents/contactus.php">聯絡我們</a></li>
+								<li><a href="/users/register.php">會員登記</a></li>
+								<li><a href="/users/forgetpassword.php">忘記密碼</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-desktop-12">
+						<div  class="disclaimer">Copyright © 2020 DCFever.com. All rights reserved.</div>
+												<div>
+												</div>
+												</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Start of eXelate Tag -->
+<script type="text/javascript">
+window.xl8_config =
+{ "p": 1405, "g": 1 }
+var xl8_script = document.createElement("script");
+xl8_script.src = "https://cdn.exelator.com/build/static.min.js";
+xl8_script.type = "text/javascript";
+xl8_script.async = true;
+document.body.appendChild(xl8_script);
+</script>
+<!-- End of eXelate Tag -->
+
+
+</body>
+</html>

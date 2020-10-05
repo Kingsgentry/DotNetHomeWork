@@ -1,0 +1,8 @@
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class5\obj\Debug\WebClrawler.csproj.CoreCompileInputs.cache
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class5\bin\Debug\Class5.exe.config
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class5\bin\Debug\Class5.exe
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class5\bin\Debug\Class5.pdb
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class5\obj\Debug\Class5.exe
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class5\obj\Debug\Class5.pdb
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class5\obj\Debug\Class5.CrawlerForm.resources
+C:\Users\ad\Documents\Navon\C#\DotNetHomeWork\Class5\obj\Debug\WebClrawler.csproj.GenerateResource.cache

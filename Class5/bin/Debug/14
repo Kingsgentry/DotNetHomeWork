@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta name="description" content="背景 上一篇（灵感来袭，基于Redis的分布式延迟队列）讲述了基于Java&amp;#160;DelayQueue和Redis实现了分布式延迟队列，这种方案实现比较简单，应用于延迟小，消息量不大的场景是没问题" />
+    <meta property="og:description" content="背景 上一篇（灵感来袭，基于Redis的分布式延迟队列）讲述了基于Java&amp;#160;DelayQueue和Redis实现了分布式延迟队列，这种方案实现比较简单，应用于延迟小，消息量不大的场景是没问题" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>灵感来袭，基于Redis的分布式延迟队列（续） - 胡峻峥 - 开发者的网上家园</title>
+    <link id="favicon" rel="shortcut icon" href="//common.cnblogs.com/favicon.svg" type="image/svg+xml" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=dktCmaTYc_s0a4EnvC6tuH5wYElIJN_131iOybZOKro" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/hujunzheng/custom.css?v=vf7FxvkQ4Ut8vSIwSa5ARzTLih4=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/hujunzheng/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/hujunzheng/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/hujunzheng/wlwmanifest.xml" />
+    <script>
+        var currentBlogId = 188211;
+        var currentBlogApp = 'hujunzheng';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var isBlogOwner = false;
+        var skinName = 'SimpleMemory';
+        var visitorUserId = '';
+    </script>
+        <script>
+            var currentPostDateAdded = '2020-10-04 06:57';
+        </script>
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=quLP6V96NCUwrp9e9p4Tc3ZzspjwpbJyGVOAQHoms5M"></script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="top_nav" class="navbar navbar-custom">
+        <nav id="nav_main" class="navbar-main">
+            <ul id="nav_left" class="navbar-list navbar-left">
+                <li class="navbar-branding">
+                    <a href="https://www.cnblogs.com/" title="开发者的网上家园"><img src="/images/logo.svg?v=R9M0WmLAIPVydmdzE2keuvnjl-bPR7_35oHqtiBzGsM" alt="博客园Logo" /></a>
+                </li>
+                <li><a href="/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-sitehome')">首页</a></li>
+                <li><a href="https://news.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-news')">新闻</a></li>
+                <li><a href="https://q.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-q')">博问</a></li>
+                <li><a id="nav_brandzone" href="https://brands.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-brands')">专区</a></li>
+                <li><a href="https://ing.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-ing')">闪存</a></li>
+                <li><a href="https://edu.cnblogs.com/" onclick="ga('send', 'event', 'Link', 'click', 'skin-navbar-edu')">班级</a></li>
+            </ul>
+            <ul id="nav_right" class="navbar-list navbar-right">
+                <li>
+                    <form id="zzk_search" class="navbar-search" action="https://zzk.cnblogs.com/s" method="get">
+                        <input name="w" id="zzk_search_input" placeholder="代码改变世界" type="text" tabindex="3" />
+                        <button type="submit" id="zzk_search_button">
+                            <img src="/images/aggsite/search.svg" alt="搜索" />
+                        </button>
+                    </form>
+                </li>
+                <li id="navbar_login_status" class="navbar-list">
+                    <a id="navblog-myblog-icon" class="navbar-user-info navbar-blog" href="https://passport.cnblogs.com/GetBlogApplyStatus.aspx" alt="我的博客" title="我的博客">
+                        <img id="myblog_icon" class="navbar-icon" src="/images/aggsite/myblog.svg" alt="我的博客" />
+                    </a>
+                    <a class="navbar-user-info navbar-message navbar-icon-wrapper" href="https://msg.cnblogs.com/" alt="短消息" title="短消息">
+                        <img id="msg_icon" class="navbar-icon" src="/images/aggsite/message.svg?v=oS4PkibyMjZ9rGD5XAcLt99uW_s76Javy2up4dbnZNY" alt="短消息" />
+                        <span id="msg_count" style="display: none"></span>
+                    </a>
+                    <div id="user_info" class="navbar-user-info dropdown">
+                        <a class="dropdown-button" href="https://home.cnblogs.com/">
+                            <img id="user_icon" class="navbar-avatar" src="/images/aggsite/avatar-default.svg" alt="用户头像" />
+                        </a>
+                        <div class="dropdown-menu">
+                            <a id="navblog-myblog-text" href="https://passport.cnblogs.com/GetBlogApplyStatus.aspx">我的博客</a>
+                            <a href="https://home.cnblogs.com/">我的园子</a>
+                            <a href="https://account.cnblogs.com/settings/account">账号设置</a>
+                            <a href="javascript:void(0)" onclick="logout();">退出登录</a>
+                        </div>
+                    </div>
+                    <a class="navbar-anonymous" href="https://account.cnblogs.com/signup/">注册</a>
+                    <a class="navbar-anonymous" href="https://account.cnblogs.com/signin/?returnUrl=https://www.cnblogs.com/">登录</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="page_begin_html">
+        <!-- Loading 底层遮罩 -->
+<div id='loading'></div>
+
+<!-- 扫码打赏 -->
+<script type="text/javascript">window.reward_config={align: "right", top: "10%", animate: true, alipay: "http://images.cnblogs.com/cnblogs_com/hujunzheng/855447/o_alipay.jpg", webChat: "http://images.cnblogs.com/cnblogs_com/hujunzheng/855447/o_webChat.png"};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='https://files.cnblogs.com/files/hujunzheng/reward.js'];</script>
+
+<!-- 引导用户关注 -->
+<script type="text/javascript">
+$(function(){var mySignature=$('<center><img src="https://images.cnblogs.com/cnblogs_com/hujunzheng/1456335/o_%E5%BC%95%E5%AF%BC%E5%85%B3%E6%B3%A8.png"></center>');$("#MySignature").css("display","block");$("#MySignature").append(mySignature)});</script>
+
+<!-- 替换标签 -->
+<script type="text/javascript">
+$(function(){$('#cnblogs_post_body h2').contents().unwrap().wrap('<h1/>');$('#cnblogs_post_body h3').contents().unwrap().wrap('<h2/>');});</script>
+    </div>
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/hujunzheng/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/hujunzheng/"></a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/hujunzheng/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E8%83%A1%E5%B3%BB%E5%B3%A5">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/hujunzheng/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+503&nbsp; </span>
+<span id="stats_article_count">文章 - 
+3&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+377</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2 vertical-middle" href="https://www.cnblogs.com/hujunzheng/p/13767887.html">
+    <span>灵感来袭，基于Redis的分布式延迟队列（续）</span>
+    
+
+
+</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body">
+    <h2>背景</h2>
+<p>上一篇（<a href="https://www.cnblogs.com/hujunzheng/p/12587572.html" target="_blank">灵感来袭，基于Redis的分布式延迟队列</a>）讲述了基于Java&nbsp;DelayQueue和Redis实现了分布式延迟队列，这种方案实现比较简单，应用于延迟小，消息量不大的场景是没问题的，毕竟Java DelayQueue是占用内存的。针对现用方案的不足，于是利用Redis的Sorted Set数据结构简单实现分布式延迟队列。</p>
+<h2>Sorted Set</h2>
+<ul>
+<li>Redis 有序集合和集合一样也是string类型元素的集合,且不允许重复的成员。</li>
+<li>不同的是每个元素都会关联一个double类型的分数。redis正是通过分数来为集合中的成员进行从小到大的排序。</li>
+<li>有序集合的成员是唯一的,但分数(score)却可以重复。</li>
+</ul>
+<h2>设计思路</h2>
+<p><img src="https://img2020.cnblogs.com/blog/640632/202010/640632-20201004172503721-1474900077.png" alt="" loading="lazy"></p>
+<ol>
+<li>使用Redis的Sorted Set作为中转队列，为防止延迟消息量过大，维护多个Sorted Set，将延迟消息按照hash值平均分布到不同的Sorted Set中。</li>
+<li>由于Sorted Set本身具备有序性，将延迟时间作为score值和延迟消息绑定到一起存入Sorted Set中。</li>
+<li>另起Java定时任务，每隔一定时间扫描所有Sorted Set，并通过ZRANGEBYSCORE操作取出符合条件的延迟消息，然后放入目标队列等待消费者消费。</li>
+</ol>
+<h2>代码实现</h2>
+<h3>延迟队列创建</h3>
+<p><img src="https://img2020.cnblogs.com/blog/640632/202010/640632-20201004175451191-2080741962.png" alt="" loading="lazy"></p>
+<p>根据queueName分别创建中转队列（Sorted Set）和 目标队列key值，其中queueSize是中转队列的大小。</p>
+<h3>延迟消息投递</h3>
+<p><img src="https://img2020.cnblogs.com/blog/640632/202010/640632-20201004175647739-1059790070.png" alt="" loading="lazy"></p>
+<p>根据延迟消息的hash值，平均分配到不同的中转队列（Sorted Set）中去。</p>
+<h3>中转定时任务</h3>
+<p>&nbsp;<img src="https://img2020.cnblogs.com/blog/640632/202010/640632-20201004175724333-1922847265.png" alt="" loading="lazy"></p>
+<p>通过分布式锁来锁定唯一的线程来执行延迟消息迁移到目标队列的操作。遍历全部的中转队列，因为延迟消息是和延迟时间戳关联的，使用ZRANGEBYSCORE命令，取出延迟时间小于当前时间的50条消息并通过LPUSH命令放入目标队列里。</p>
+<h3>延迟消息消费</h3>
+<p><img src="https://img2020.cnblogs.com/blog/640632/202010/640632-20201004175813620-846558964.png" alt="" loading="lazy"></p>
+<p>&nbsp;通过RPOP命令不断的从目标队列获取延迟消息，执行相应的消费逻辑。</p>
+<h2>总结</h2>
+<p>本文描述的实现方案还有诸多异常情况尚未考虑，比如生产者发送失败、消费者消费失败的情况，无法保证极端情况下生产者和消费者两端的数据一致性。该方案可以满足业务量不是很大、延迟时间较长、允许部分数据可能丢失的场景，比如用户签到提醒，可以根据用户签到的时间，第二天在相应的时间点推送消息提醒用户继续签到。</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-10-04 18:57</span>&nbsp;
+<a href="https://www.cnblogs.com/hujunzheng/">胡峻峥</a>&nbsp;
+阅读(<span id="post_view_count">89</span>)&nbsp;
+评论(<span id="post_comment_count">0</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=13767887" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(13767887);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 188211, cb_blogApp = 'hujunzheng', cb_blogUserGuid = '46472a85-76ed-e311-8d02-90b11c0b17d6';
+    var cb_entryId = 13767887, cb_entryCreatedDate = '2020-10-04 18:57', cb_postType = 1;
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id='div-gpt-ad-1592365906576-0' style='width: 300px; height: 250px;'></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id='div-gpt-ad-1592366332455-0' style='width: 468px; height: 60px;'></div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverT2();
+        deliverC1C2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 胡峻峥
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <!-- 滚动进度 -->
+<div id="bottomProgressBar"></div>
+
+<!-- 音乐播放器 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.js"></script>
+<div id="aplayer" class="aplayer" data-id="2780066666" data-lrctype="0" data-server="netease" data-type="playlist" data-fixed="true" data-listfolded="true"></div>
+<script src="https://unpkg.com/meting@1.2/dist/Meting.min.js"></script>
+
+<!-- 右下角菜单 -->
+<div id="rightMenu"></div>
+
+<!-- CNZZ統計 -->
+<div id="cnzzProtocol"  style="display: none;">
+    <span class="id_cnzz_stat_icon" id='cnzz_stat_icon_1277383466'></span>
+    <script src='https://s23.cnzz.com/z_stat.php?id=1277383466&online=1&show=line' type='text/javascript'></script>
+</div>
+    </div>
+</body>
+</html>
